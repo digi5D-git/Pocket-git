@@ -1,0 +1,31 @@
+{
+  "supportExtensions": [
+    "js",
+    "json",
+    "css",
+    "html",
+    "xml",
+    "py",
+    "powershell"
+  ],
+  "lightTheme": "chrome",
+  "darkTheme": "vibrant_ink",
+  "keyboard": "default",
+  "showLineNumbers": true,
+  "fontSize": 14,
+  "fontFamily": [
+    "Consolas",
+    "Courier New",
+    "monospace"
+  ],
+  "tabSize": 4,
+  "snippetsManager": {
+    "location": true,
+    "icon": "code"
+  },
+  "showPrintMargin": true,
+  "showInvisibles": false,
+  "displayIndentGuides": true,
+  "showFoldWidgets": true,
+  "embedMaxHeight": 600
+}

@@ -1,0 +1,9 @@
+{
+  "autocompleteTriggerPhrase": "@",
+  "isAutosuggestEnabled": true,
+  "excludeFolders": [],
+  "enableAdvancedUri": true,
+  "triggerFilterRules": [],
+  "mainPaths": [],
+  "advancedUriField": "uID"
+}

@@ -1,0 +1,106 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [
+    {
+      "id": "obsidian-style-settings:show-style-settings-leaf",
+      "icon": "lucide-lollipop",
+      "name": "Style Settings",
+      "mode": "any"
+    }
+  ],
+  "leftRibbon": [
+    {
+      "id": "app:open-settings",
+      "icon": "lucide-settings",
+      "name": "Open settings",
+      "mode": "any"
+    },
+    {
+      "id": "app:open-vault",
+      "icon": "vault",
+      "name": "Open another vault",
+      "mode": "any"
+    },
+    {
+      "id": "slurp:create-note-from-url",
+      "icon": "lucide-scan-text",
+      "name": "Slurp Page",
+      "mode": "any",
+      "color": "#a6a80f"
+    },
+    {
+      "id": "ace-code-editor:openCssSnippet",
+      "icon": "lucide-cassette-tape",
+      "name": "Ace Code Editor: Open CSS snippet manager",
+      "mode": "any"
+    },
+    {
+      "id": "snippets-manager:open-snippet-search",
+      "icon": "lucide-code-2",
+      "name": "Snippets Manager: Search Snippets",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [
+    {
+      "id": "app:show-tab-switcher",
+      "icon": "tabs",
+      "name": "Show tab overview",
+      "mode": "any"
+    },
+    {
+      "id": "markdown:toggle-preview",
+      "icon": "lucide-edit-2",
+      "name": "Toggle reading view",
+      "mode": "any"
+    }
+  ],
+  "pageHeader": [
+    {
+      "id": "app:open-settings",
+      "icon": "lucide-settings",
+      "name": "Open settings",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [
+    {
+      "id": "ace-code-editor:openCssSnippet",
+      "icon": "lucide-code-square",
+      "name": "Ace Code Editor: Open CSS snippet manager",
+      "mode": "any"
+    },
+    {
+      "id": "slurp:create-note-from-url",
+      "icon": "lucide-scan-text",
+      "name": "Slurp: Create note from URL",
+      "mode": "any"
+    }
+  ],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "Open another vault",
+      "Insert template",
+      "Open settings",
+      "Quick-Delete"
+    ]
+  },
+  "spacing": "15",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": true,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 6
+  }
+}

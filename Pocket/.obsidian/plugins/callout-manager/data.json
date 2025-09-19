@@ -1,0 +1,35 @@
+{
+  "callouts": {
+    "custom": [],
+    "settings": {
+      "important": [
+        {
+          "changes": {
+            "icon": "lucide-megaphone"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "168, 130, 255"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "122, 38, 38"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

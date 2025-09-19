@@ -1,0 +1,21 @@
+{
+  "cssTheme": "Primary",
+  "accentColor": "#b8a037",
+  "interfaceFontFamily": "Helvetica Neue",
+  "textFontFamily": "Google Sans",
+  "monospaceFontFamily": "DroidSansM Nerd Font Mono",
+  "enabledCssSnippets": [
+    "Math Callouts",
+    "ModularCSS - Wide Views",
+    "Floating Status Bar - AnuP",
+    "Multicolumns",
+    "List Panels",
+    "lagom",
+    "shortCallout",
+    "Minimal Theme cards",
+    "infobox_callout",
+    "font-hyperlegible"
+  ],
+  "theme": "obsidian",
+  "baseFontSize": 14
+}

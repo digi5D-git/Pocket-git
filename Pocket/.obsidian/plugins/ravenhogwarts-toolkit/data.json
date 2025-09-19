@@ -1,0 +1,42 @@
+{
+  "config": {
+    "version": "1.0.0",
+    "logger": {
+      "level": 1,
+      "showTimestamp": true,
+      "showLevel": true,
+      "console": true,
+      "showNotifications": true,
+      "noticeTimeout": 5000
+    },
+    "developer": {
+      "enabled": false,
+      "enableCount": 0
+    },
+    "menu": {
+      "useSubMenu": false
+    }
+  },
+  "toolkit": {
+    "quickPath": {
+      "config": {
+        "enabled": true,
+        "useAbsolutePath": false,
+        "pathSeparator": "\n",
+        "addEditorMenu": true,
+        "addFileMenu": true
+      },
+      "data": {
+        "lastModified": "2025-09-19T16:21:02Z"
+      }
+    },
+    "tableEnhancements": {
+      "config": {
+        "enabled": true
+      },
+      "data": {
+        "lastModified": "2025-09-19T16:21:02Z"
+      }
+    }
+  }
+}

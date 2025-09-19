@@ -1,0 +1,56 @@
+/* for use with Lithou's rainbow folder snippet,
+   and in particular for @ABrokkoliBoi's version? */
+[data-type="bookmarks"] .tree-item {
+    & > .tree-item-self {
+        color: inherit;
+    }
+
+    &:is(:nth-child(14n + 1 of .tree-item:has(.mod-collapsible))) {
+        color: var(--Fold1);
+    }
+    &:is(:nth-child(14n + 2 of .tree-item:has(.mod-collapsible))) {
+        color: var(--Fold2);
+    }
+    &:is(:nth-child(14n + 3 of .tree-item:has(.mod-collapsible))) {
+        color: var(--Fold3);
+    }
+    &:is(:nth-child(14n + 4 of .tree-item:has(.mod-collapsible))) {
+        color: var(--Fold4);
+    }
+    &:is(:nth-child(14n + 5 of .tree-item:has(.mod-collapsible))) {
+        color: var(--Fold5);
+    }
+    &:is(:nth-child(14n + 6 of .tree-item:has(.mod-collapsible))) {
+        color: var(--Fold6);
+    }
+    &:is(:nth-child(14n + 7 of .tree-item:has(.mod-collapsible))) {
+        color: var(--Fold7);
+    }
+    &:is(:nth-child(14n + 8 of .tree-item:has(.mod-collapsible))) {
+        color: var(--Fold8);
+    }
+    &:is(:nth-child(14n + 9 of .tree-item:has(.mod-collapsible))) {
+        color: var(--Fold9);
+    }
+    &:is(:nth-child(14n + 10 of .tree-item:has(.mod-collapsible))) {
+        color: var(--Fold10);
+    }
+    &:is(:nth-child(14n + 11 of .tree-item:has(.mod-collapsible))) {
+        color: var(--Fold11);
+    }
+    &:is(:nth-child(14n + 12 of .tree-item:has(.mod-collapsible))) {
+        color: var(--Fold12);
+    }
+    &:is(:nth-child(14n + 13 of .tree-item:has(.mod-collapsible))) {
+        color: var(--Fold13);
+    }
+    &:is(:nth-child(14n + 14 of .tree-item:has(.mod-collapsible))) {
+        color: var(--Fold14);
+    }
+}
+
+@media (hover: hover) {
+    body:not(.is-grabbing) [data-type="bookmarks"] .tree-item-self.is-clickable:hover {
+        color: inherit;
+    }
+}

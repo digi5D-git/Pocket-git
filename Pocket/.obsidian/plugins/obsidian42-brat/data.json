@@ -1,0 +1,37 @@
+{
+  "pluginList": [
+    "elekis-git/obsidian-properties-view",
+    "RavenHogWarts/obsidian-next-toc",
+    "RavenHogWarts/obsidian-ravenhogwarts-toolkit",
+    "anareaty/pretty-properties"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "elekis-git/obsidian-properties-view",
+      "version": "latest"
+    },
+    {
+      "repo": "RavenHogWarts/obsidian-next-toc",
+      "version": "latest"
+    },
+    {
+      "repo": "RavenHogWarts/obsidian-ravenhogwarts-toolkit",
+      "version": "latest"
+    },
+    {
+      "repo": "anareaty/pretty-properties",
+      "version": "latest"
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": false
+}

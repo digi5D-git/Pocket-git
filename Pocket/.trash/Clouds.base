@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+  - type: table
+    name: View
+    order:
+      - file.name
+      - file.backlinks
+      - file.basename
+      - file.folder
+      - "vID:"
+    rowHeight: tall

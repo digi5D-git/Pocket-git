@@ -1,0 +1,187 @@
+/* Link Maintainer Modal Styles */
+
+.link-maintainer-modal {
+    padding: 20px;
+}
+
+.link-maintainer-modal label {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+    color: var(--text-normal);
+}
+
+.link-maintainer-modal .setting-item {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column; /* Align label and input vertically */
+    align-items: flex-start; /* Align content to the left */
+}
+
+.link-maintainer-modal select,
+.link-maintainer-modal input {
+    width: 100%; /* Ensure inputs take up the full width */
+    max-width: 400px; /* Optional: Set a max width for better layout */
+    height: 36px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid var(--background-modifier-border);
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    box-sizing: border-box;
+}
+
+.link-maintainer-modal select {
+    appearance: none; /* Remove browser-specific styling */
+}
+
+.link-maintainer-modal select:focus,
+.link-maintainer-modal input:focus {
+    outline: 2px solid var(--interactive-accent);
+    border-color: var(--interactive-accent);
+}
+
+.link-maintainer-modal button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.link-maintainer-modal button:hover {
+    background-color: var(--interactive-accent-hover);
+}
+
+/* Link Maintainer Info Section */
+
+.link-maintainer-info {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: var(--background-secondary);
+    border-radius: 5px;
+}
+
+.link-maintainer-info-item {
+    margin: 5px 0;
+    font-family: var(--font-monospace);
+}
+
+/* Link Maintainer Match List */
+
+.link-maintainer-match-list {
+    margin-top: 10px;
+}
+
+.link-maintainer-group-header {
+    margin: 20px 0 10px;
+    padding: 5px 10px;
+    background-color: var(--background-secondary);
+    border-radius: 4px;
+    font-size: 1em;
+    color: var(--text-normal);
+}
+
+.link-maintainer-match-item {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background-color: var(--background-primary);
+}
+
+.link-maintainer-match-item:hover {
+    border-color: var(--interactive-accent);
+}
+
+.link-maintainer-file-info {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.link-maintainer-file-link {
+    color: var(--text-accent);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link-maintainer-file-link:hover {
+    text-decoration: underline;
+}
+
+.link-maintainer-line-number {
+    margin: 5px 0;
+    color: var(--text-muted);
+    font-size: 0.9em;
+}
+
+.link-maintainer-line-content {
+    font-family: var(--font-monospace);
+    padding: 8px;
+    background-color: var(--background-secondary);
+    border-radius: 3px;
+    white-space: pre-wrap;
+    font-size: 0.9em;
+}
+
+.link-maintainer-button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* Hide block and heading containers by default */
+.link-maintainer-modal .block-container,
+.link-maintainer-modal .heading-container {
+    display: none;
+}
+
+/* Show containers when their respective link types are selected */
+.link-maintainer-modal .block-container.active,
+.link-maintainer-modal .heading-container.active {
+    display: block;
+}
+
+/* File type specific styles */
+.link-maintainer-match-item[data-file-type="canvas"] {
+    border-left: 3px solid var(--interactive-accent);
+}
+
+.link-maintainer-match-item[data-file-type="markdown"] {
+    border-left: 3px solid var(--text-accent);
+}
+
+/* Changes list in confirmation dialog */
+.link-maintainer-changes-list {
+    background-color: var(--background-primary);
+}
+
+.link-maintainer-changes-list .file-type-header {
+    font-weight: bold;
+    padding: 8px;
+    margin: 8px 0;
+    background-color: var(--background-secondary);
+    border-radius: 4px;
+}
+
+.link-maintainer-changes-list .match-item {
+    padding: 8px;
+    margin: 8px 0;
+    border-left: 3px solid transparent;
+}
+
+.link-maintainer-changes-list .match-item[data-file-type="canvas"] {
+    border-left-color: var(--interactive-accent);
+}
+
+.link-maintainer-changes-list .match-item[data-file-type="markdown"] {
+    border-left-color: var(--text-accent);
+}
