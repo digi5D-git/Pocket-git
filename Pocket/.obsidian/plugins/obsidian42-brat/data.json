@@ -1,15 +1,10 @@
 {
   "pluginList": [
-    "elekis-git/obsidian-properties-view",
     "RavenHogWarts/obsidian-next-toc",
     "RavenHogWarts/obsidian-ravenhogwarts-toolkit",
     "anareaty/pretty-properties"
   ],
   "pluginSubListFrozenVersion": [
-    {
-      "repo": "elekis-git/obsidian-properties-view",
-      "version": "latest"
-    },
     {
       "repo": "RavenHogWarts/obsidian-next-toc",
       "version": "latest"
