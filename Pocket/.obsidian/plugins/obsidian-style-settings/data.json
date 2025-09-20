@@ -327,5 +327,9 @@
   "others-values@@radius-s": 20,
   "others-values@@navbar_blur_level": "5px",
   "files-folders@@multiline-files-explorer": "left",
-  "tabs@@tabs-height": 400
+  "tabs@@tabs-height": 400,
+  "infobox-callouts@@ic-title-alignment": "Right",
+  "infobox-callouts@@ic-title-stylistic-sets": "\"ss16\"",
+  "infobox-callouts@@ic-title-smallcaps": true,
+  "infobox-callouts@@ic-section-background-toggle": true
 }
