@@ -1,10 +1,18 @@
 ---
+icon:
+iconcolor:
+indx:
 cssclass:
 cat:
 tags:
 uID:: LaTeX, resource links
 generated:: 250914 // 12.50
 mod:: 250914 // 13.14
+fn: LaTeX, resource links
+aliases: "LaTeX, resource links"
+key: "LaTeX, resource links"
+created:: 250919_19.28
+modified:: 250920_16.17
 ---
 
 > [!faq] Learn LaTeX, interactive web tutorial

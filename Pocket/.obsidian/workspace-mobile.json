@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a24d7532bf6e75e3",
+        "id": "846d63ff8d1de99d",
         "type": "tabs",
         "children": [
           {
-            "id": "188af6174aa82327",
+            "id": "8ab39a229bef20ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes, Excel.md",
+                "file": "Intake/Dv test.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Notes, Excel"
+              "title": "Dv test"
             }
           }
         ]
@@ -113,6 +113,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Intake/Dv test.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -131,6 +132,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Intake/Dv test.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -144,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Notes, Excel.md",
+            "file": "Intake/Dv test.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -159,8 +161,8 @@
         "state": {
           "type": "calendar",
           "state": {},
-          "icon": "lucide-ghost",
-          "title": "calendar"
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
         }
       },
       {
@@ -191,12 +193,12 @@
         "state": {
           "type": "netClip_workspace_webview",
           "state": {},
-          "icon": "lucide-ghost",
-          "title": "netClip_workspace_webview"
+          "icon": "globe",
+          "title": "Web View"
         }
       }
     ],
-    "currentTab": 2
+    "currentTab": 5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,8 +228,14 @@
       "widgets:Add widget": false
     }
   },
-  "active": "188af6174aa82327",
+  "active": "8ab39a229bef20ac",
   "lastOpenFiles": [
+    "Untitled Kanban.md",
+    "meta_bind_guide.md",
+    "Template - Book.md",
+    "obsidian_dashboard_queries.md",
+    "Theme Primary, Specifics.md",
+    "Notes, Excel.md",
     "Idex.md",
     "Intake/Luxon, JavaScript Date & Time Wrapper.md",
     "temps/Core Idea.md",
@@ -235,7 +243,6 @@
     "temps/Project Note Template.md",
     "Intake/LINKs.md",
     "temps/Dashboard.md",
-    "Notes, Excel.md",
     "Termux-Command-Handbook/chapter_04.md",
     "Termux-Command-Handbook/chapter_03.md",
     "Termux-Command-Handbook/chapter_02.md",
@@ -250,12 +257,7 @@
     "temps/Protocol MOC.md",
     "temps/Lab Inventory MOC.md",
     "temps/Topic MOC Template.md",
-    "temps/Paper Template.md",
-    "temps/Lab Inventory Template.md",
-    "temps/Protocol Template.md",
     "temps",
-    "Intake/fid.md",
-    "IceDrive.md",
     "NetClip/Mind",
     "NetClip/CS",
     "NetClip/Design",

@@ -49,7 +49,9 @@
   "frontmatterListDisplay": "asArray",
   "fileClassExcludedFolders": [],
   "showIndexingStatusInStatusBar": true,
-  "fileIndexingExcludedFolders": [],
+  "fileIndexingExcludedFolders": [
+    "/Intake/"
+  ],
   "fileIndexingExcludedExtensions": [
     ".excalidraw.md"
   ],

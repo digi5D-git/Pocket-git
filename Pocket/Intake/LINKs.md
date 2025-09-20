@@ -1,4 +1,6 @@
 ---
+iconcolor:
+indx:
 cssclass:
 cat:
 tags:
@@ -6,6 +8,11 @@ icon:
 uID:: LINKs
 generated:: 250920 // 12.21
 mod:: 250920 // 13.53
+fn: LINKs
+aliases: LINKs
+key: LINKs
+created:: 250920_12.21
+modified:: 250920_16.17
 ---
 
 

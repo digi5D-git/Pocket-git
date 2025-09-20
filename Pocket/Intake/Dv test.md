@@ -1,13 +1,16 @@
 ---
+iconcolor:
+indx:
 cssclass:
-cat:
 tags:
 icon:
-"generated:": 250918 // 20.32
-"mod:": 250918 // 20.33
-generated:: 250918 // 20.32
-mod:: 250918 // 20.36
+fn: Dv test
+aliases: Dv test
+key: Dv test
+"created:": 250919_19.28
+"modified:": 250920_16.18
 ---
+
 ```dataviewjs
 let propertyName = "set"; // Replace with your desired frontmatter property name
 let propertyValue = "mind"; // Replace with the specific value you are looking for
