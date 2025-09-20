@@ -16,8 +16,15 @@ type: navigation
 Welcome to your interactive topic navigation system. Click any button below to explore notes in that category.
 
 <div class="topic-navigation">
+
 ```button
 name 💻 Programming Languages
 type command
 action Templater: Create new note from template
 templater True
+
+name 🌐 Web Development
+type command
+action Templater: Create new note from template
+templater True
+
