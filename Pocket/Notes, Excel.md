@@ -5,15 +5,12 @@ cat:
 tags:
 uID:: Notes, Excel
 generated:: 250917 // 06.40
-mod:: 250919 // 15.56
+mod:: 250920 // 14.48
 ---
 
 >[!infobox] iBox callout
 > the infobox
-
-
-
-## UNIX Timestamps
+l## UNIX Timestamps
 
 > [!info] UNIX differences
 > **10** digit UNIX timestamps: Date & time down to seconds
