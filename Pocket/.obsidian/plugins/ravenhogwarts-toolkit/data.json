@@ -20,14 +20,14 @@
   "toolkit": {
     "quickPath": {
       "config": {
-        "enabled": true,
+        "enabled": false,
         "useAbsolutePath": false,
         "pathSeparator": "\n",
         "addEditorMenu": true,
         "addFileMenu": true
       },
       "data": {
-        "lastModified": "2025-09-19T16:21:02Z"
+        "lastModified": "2025-09-20T18:33:43.592Z"
       }
     },
     "tableEnhancements": {
