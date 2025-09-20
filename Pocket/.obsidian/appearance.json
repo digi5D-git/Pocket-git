@@ -13,7 +13,8 @@
     "shortCallout",
     "Minimal Theme cards",
     "infobox_callout",
-    "font-hyperlegible"
+    "font-hyperlegible",
+    "cupertino"
   ],
   "theme": "obsidian",
   "baseFontSize": 14

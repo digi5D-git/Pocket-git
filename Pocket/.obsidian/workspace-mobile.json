@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "temps/Project MOC Template.md",
+                "file": "Notes, Excel.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Project MOC Template"
+              "title": "Notes, Excel"
             }
           }
         ]
@@ -144,7 +144,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "temps/Project MOC Template.md",
+            "file": "Notes, Excel.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -228,6 +228,10 @@
   },
   "active": "188af6174aa82327",
   "lastOpenFiles": [
+    "Idex.md",
+    "Intake/Luxon, JavaScript Date & Time Wrapper.md",
+    "temps/Core Idea.md",
+    "temps/Project MOC Template.md",
     "temps/Project Note Template.md",
     "Intake/LINKs.md",
     "temps/Dashboard.md",
@@ -235,7 +239,6 @@
     "Termux-Command-Handbook/chapter_04.md",
     "Termux-Command-Handbook/chapter_03.md",
     "Termux-Command-Handbook/chapter_02.md",
-    "Idex.md",
     "Intake/JavaScript Libraries.md",
     "Ref_Sheets/The Ultimate Guide to Termux Commands.md",
     "Termux-Command-Handbook/Chapter1.md",
@@ -243,12 +246,10 @@
     "Ref_Sheets",
     "temps/Experiment Template.md",
     "temps/Course MOC.md",
-    "temps/Core Idea.md",
     "Intake/Bookmark Ninja Mobile Share.md",
     "temps/Protocol MOC.md",
     "temps/Lab Inventory MOC.md",
     "temps/Topic MOC Template.md",
-    "temps/Project MOC Template.md",
     "temps/Paper Template.md",
     "temps/Lab Inventory Template.md",
     "temps/Protocol Template.md",
@@ -262,7 +263,6 @@
     "NetClip/Research",
     "NetClip/Articles",
     "NetClip",
-    "Slurped Pages/What is Visual Hierarchy.md",
     "ExTyp_stylesettings.json",
     "typeface anatomy.jpg",
     "Anatomy of Typeface.jpg",

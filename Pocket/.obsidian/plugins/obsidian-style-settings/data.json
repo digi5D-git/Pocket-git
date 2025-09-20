@@ -1,9 +1,7 @@
 {
-  "cupertino@@hide-frontmatter-off": false,
+  "cupertino@@hide-frontmatter-off": true,
   "cupertino@@accented-frame-opacity": 0,
   "cupertino@@windows-mode-off": false,
-  "cupertino@@hide-nav-header-off": false,
-  "cupertino@@blur-effect-off": false,
   "glass-theme-settings@@disable_fonts_settings": true,
   "glass-theme-settings@@disable_stars_settings": true,
   "glass-theme-settings@@themes-setting": "oneDark",
@@ -148,7 +146,7 @@
   "mado-miniflow@@toggle-highlight-type": "THT-background",
   "sei@@sei-remove-divider-inline-title": false,
   "sei@@sei-select-labeled-nav": "sei-enable-labeled-nav-everywhere",
-  "cupertino@@material-off": true,
+  "cupertino@@material-off": false,
   "V1-Willemstad-Colours@@color-base-d-l-presets": "ssopt-col-base-lightness-d-analog",
   "V1-Willemstad-Colours@@color-base-d-ch-presets": "ssopt-col-base-tone-d-gruvbox",
   "V1-Willemstad-Colours@@col-selection-d-presets": "ssopt-sel-d-met-tiepolo-dusty-blue",
@@ -211,8 +209,6 @@
   "V1-Willemstad-Editor@@col-base-bg-alh": "var(--color-base-100)",
   "V1-Willemstad-Editor@@width-vll": "725px",
   "V1-Willemstad-Editor@@file-margins": 20,
-  "cupertino@@compact-mode": false,
-  "cupertino@@hide-embed-title-off": true,
   "cupertino@@full-width-off": true,
   "baseline-style@@color-scheme-dark": "things-dark",
   "baseline-style@@background-contrast-dark": "contrast-dark",
@@ -331,5 +327,8 @@
   "infobox-callouts@@ic-title-alignment": "Right",
   "infobox-callouts@@ic-title-stylistic-sets": "\"ss16\"",
   "infobox-callouts@@ic-title-smallcaps": true,
-  "infobox-callouts@@ic-section-background-toggle": true
+  "infobox-callouts@@ic-section-background-toggle": true,
+  "cupertino@@tabs-autosize-off": true,
+  "cupertino@@block-width-off": true,
+  "cupertino@@clean-link-off": true
 }
