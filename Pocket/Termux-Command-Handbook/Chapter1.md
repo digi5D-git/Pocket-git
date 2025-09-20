@@ -6,6 +6,8 @@ icon:
 "uID:": Chapter1
 "generated:": 250920 // 12.14
 "mod:": 250920 // 12.16
+generated:: 250920 // 12.14
+mod:: 250920 // 12.18
 ---
 
 ### Chapter 1: Basic Commands
