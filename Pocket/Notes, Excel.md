@@ -8,6 +8,11 @@ generated:: 250917 // 06.40
 mod:: 250919 // 15.56
 ---
 
+>[!infobox] iBox callout
+> the infobox
+
+
+
 ## UNIX Timestamps
 
 > [!info] UNIX differences
