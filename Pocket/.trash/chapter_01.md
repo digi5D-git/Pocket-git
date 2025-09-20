@@ -6,7 +6,8 @@ icon:
 "uID:": chapter_01
 "generated:": 250920 // 12.07
 "mod:": 250920 // 12.09
-data:
+generated:: 250920 // 12.07
+mod:: 250920 // 12.10
 ---
 
 # Chapter 1: The Termux Foundation
