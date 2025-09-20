@@ -37,5 +37,22 @@ templater True
 ```
 
 ```button
+name 🧮 Mathematics
+type command
+action Templater: Create new note from template
+templater True
+```
 
+```button
+name 📋 Data Formats
+type command
+action Templater: Create new note from template
+templater True
+```
+```button
+name ⚙️ Tools & Utilities
+type command
+action Templater: Create new note from template
+templater True
+```
 
