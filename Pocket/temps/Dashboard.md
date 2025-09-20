@@ -1,14 +1,17 @@
 ---
-aliases: 
-tags: 
+cssclass:
+cat:
+icon:
+aliases:
+tags:
 cssclasses:
   - wide-page
 title: Dashboard
-date_created: 2024-04-20-Saturday
-date_modified: 2024-06-20-Thursday
-banner:
-banner: "![[ndndhg2fdii61.jpg]]"
-banner_y: 0.752
+"uID:": Dashboard
+"generated:": 250919 // 19.36
+"mod:": 250919 // 21.17
+generated:: 250919 // 19.36
+mod:: 250919 // 21.18
 ---
 
 ```widgets
@@ -16,8 +19,9 @@ type: clock
 ```
 
 > [!col]
->
+> 
 > > [!col-md]
+> > 
 > > ```meta-bind-button
 > > label: Courses
 > > icon: ""
@@ -33,7 +37,7 @@ type: clock
 > > ```
 > 
 > > [!col-md]
-> >
+> > 
 > > ```meta-bind-button
 > > label: Daily Note
 > > icon: ""
@@ -48,7 +52,7 @@ type: clock
 > > ```
 > 
 > > [!col-md]
-> >
+> > 
 > > ```meta-bind-button
 > > label: Directory
 > > icon: ""
@@ -64,7 +68,7 @@ type: clock
 > > ```
 > 
 > > [!col-md]
-> >
+> > 
 > > ```meta-bind-button
 > > label: Lab Inventory
 > > icon: ""
@@ -80,7 +84,7 @@ type: clock
 > > ```
 > 
 > > [!col-md]
-> >
+> > 
 > > ```meta-bind-button
 > > label: Meetings
 > > icon: ""
@@ -96,7 +100,7 @@ type: clock
 > > ```
 > 
 > > [!col-md]
-> >
+> > 
 > > ```meta-bind-button
 > > label: Protocols
 > > icon: ""
@@ -166,8 +170,8 @@ GROUP BY path
 SORT due ASC
 ```
 
-
 ## This Week
+
 > > ```dataview
 > > TASK 
 > > FROM "100 Lab Notes" AND -#paperwork AND -#obsidian
@@ -176,10 +180,10 @@ SORT due ASC
 > > GROUP BY due
 > > ```
 
-##  Inbox
+## Inbox
 
 > > _These tasks have no due date and are not scheduled._
-> >
+> > 
 > > ```dataview 
 > > TASK
 > > FROM "100 Lab Notes" AND -#obsidian AND -#paperwork AND -#to_read
@@ -268,7 +272,6 @@ FROM #to_read
 WHERE !completed AND !due
 ```
 
-
 <br>
 
 ---
@@ -291,7 +294,6 @@ SORT file.cdate asc
 
 <br>
 
-
 ```ad-success
 title: Finished Experiments
 collapse: closed
@@ -305,7 +307,6 @@ WHERE contains(status, "done")
 SORT file.cdate asc
 LIMIT 10
 ```
-
 
 ```ad-fail
 title: Failed Experiments

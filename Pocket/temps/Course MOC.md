@@ -9,6 +9,8 @@ date_created: 2024-04-06-Saturday
 date_modified: 2024-06-13-Thursday
 banner: "![[undefined - Imgur (1).jpg]]"
 banner_y: 0.448
+generated:: 250919 // 19.37
+mod:: 250919 // 21.17
 ---
 
 [[Dashboard]]
@@ -30,7 +32,7 @@ id: ""
 style: primary
 actions:
   - type: templaterCreateNote
-    templateFile: Templates/Course MOC Template.md
+    templateFile: temps/Course MOC Template.md
     folderPath: 200 Courses
     fileName: ""
     openNote: true
