@@ -5,7 +5,7 @@ tags:
 icon:
 uID:: LINKs
 generated:: 250920 // 12.21
-mod:: 250920 // 12.30
+mod:: 250920 // 12.33
 ---
 
 ## C++
@@ -13,4 +13,4 @@ mod:: 250920 // 12.30
 -  [C++](https://cplusplus.com/)
 
 ## JavaScript
--  []
+-  [Learn JS](https://www.javascript.com/learn/strings)<www.javascript.com/learn/strings>)￼
