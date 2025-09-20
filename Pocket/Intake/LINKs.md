@@ -5,8 +5,13 @@ tags:
 icon:
 uID:: LINKs
 generated:: 250920 // 12.21
-mod:: 250920 // 12.40
+mod:: 250920 // 12.44
 ---
+
+
+## Python
+-  [Py3](https://docs.python.org/3/)
+
 
 ## C++
 
