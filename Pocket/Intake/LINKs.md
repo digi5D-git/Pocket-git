@@ -5,7 +5,7 @@ tags:
 icon:
 uID:: LINKs
 generated:: 250920 // 12.21
-mod:: 250920 // 12.46
+mod:: 250920 // 12.49
 ---
 
 
@@ -29,4 +29,8 @@ mod:: 250920 // 12.46
 
 ## Powershell
 -  [Microsoft Powershell](https://learn.microsoft.com/en-us/powershell/)
-- 
+
+
+## Ardunio
+ [Ardunio Tutorials](https://docs.arduino.cc/tutorials/)
+
