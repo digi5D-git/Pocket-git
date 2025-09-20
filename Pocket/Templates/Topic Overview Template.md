@@ -7,9 +7,8 @@ fn: Topic Overview Template
 aliases: Topic Overview Template
 key: Topic Overview Template
 "created:": 250920_19.17
-"modified:": 250920_19.18
-created:: 250920_19.17
-modified:: 250920_19.20
+"modified:": 250920_19.
+
 ---
 <%*
 const topic = await tp.system.prompt("Topic name:");
@@ -72,4 +71,4 @@ SORT file.mtime DESC
 LIMIT 5
 ```
 
-      
+This page was auto-generated on <% tp.date.now("YYYY-MM-DD HH:mm") %>
