@@ -43,3 +43,17 @@ WHERE contains(lower(file.name), "<% topic.toLowerCase() %>") OR
       contains(lower(file.frontmatter.subcategory), "<% topic.toLowerCase() %>")
 SORT file.mtime DESC
 LIMIT 20
+```
+
+```
+TABLE WITHOUT ID
+  "📊 **Total Notes**: " + length(rows) as "Count"
+FROM ""
+WHERE contains(lower(file.name), "<% topic.toLowerCase() %>") OR 
+      contains(lower(join(file.tags, " ")), "<% topic.toLowerCase() %>") OR
+      contains(lower(file.frontmatter.category), "<% topic.toLowerCase() %>") OR
+      contains(lower(file.frontmatter.subcategory), "<% topic.toLowerCase() %>")
+```
+
+
+      
