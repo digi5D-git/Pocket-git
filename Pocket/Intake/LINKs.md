@@ -5,7 +5,7 @@ tags:
 icon:
 uID:: LINKs
 generated:: 250920 // 12.21
-mod:: 250920 // 13.04
+mod:: 250920 // 13.53
 ---
 
 
@@ -21,11 +21,9 @@ mod:: 250920 // 13.04
 -  [Learn JS](https://www.javascript.com/learn/strings)<www.javascript.com/learn/strings>)￼
 
 ## Rust
--  [Learn Rust](https://www.rust-lang.org/learn)www.rust-lang.org/learn)￼
-- 
+-  [Learn Rust](https://www.rust-lang.org/learn)<www.rust-lang.org/learn>)￼
 ## GO
 -  [Learn GO](https://go.dev/learn/)
-- 
 
 ## Powershell
 -  [Microsoft Powershell](https://learn.microsoft.com/en-us/powershell/)
@@ -36,5 +34,4 @@ mod:: 250920 // 13.04
 
 
 ## XML eXtensible Markup Language
--  [W3C XML Overview](https://www.w3schools.com/xml/default.asp)www.w3schools.com/xml/default.asp)￼
-- 
+-  [W3C XML Overview](https://www.w3schools.com/xml/default.asp)<www.w3schools.com/xml/default.asp>)￼
