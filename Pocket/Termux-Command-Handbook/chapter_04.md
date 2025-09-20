@@ -1,3 +1,13 @@
+---
+cssclass:
+cat:
+tags:
+icon:
+uID:: chapter_04
+generated:: 250920 // 12.07
+mod:: 250920 // 14.07
+---
+
 # Chapter 4: Communication & Connectivity
 
 > Automate and manage your device's core communication features. These API commands allow you to send SMS, initiate calls, query contacts, and control Wi-Fi connections, all from your scripts.
