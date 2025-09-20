@@ -1,3 +1,13 @@
+---
+cssclass:
+cat:
+tags:
+icon:
+uID:: chapter_02
+generated:: 250920 // 12.07
+mod:: 250920 // 14.06
+---
+
 # Chapter 2: Interacting with the Android UI
 
 > These commands, primarily from the `termux-api` package, allow your scripts to break out of the terminal and interact directly with the Android user interface, creating a bridge between the command line and the graphical environment.
