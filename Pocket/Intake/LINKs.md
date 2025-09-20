@@ -5,7 +5,7 @@ tags:
 icon:
 uID:: LINKs
 generated:: 250920 // 12.21
-mod:: 250920 // 12.44
+mod:: 250920 // 12.46
 ---
 
 
@@ -20,7 +20,9 @@ mod:: 250920 // 12.44
 ## JavaScript
 -  [Learn JS](https://www.javascript.com/learn/strings)<www.javascript.com/learn/strings>)￼
 
-
+## Rust
+-  [Learn Rust](https://www.rust-lang.org/learn)www.rust-lang.org/learn)￼
+- 
 ## GO
 -  [Learn GO](https://go.dev/learn/)
 - 
