@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Enhanced Topic Overview.md",
-                "mode": "preview",
+                "file": "Topic Navigation.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Enhanced Topic Overview"
+              "title": "Topic Navigation"
             }
           }
         ]
@@ -146,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Templates/Enhanced Topic Overview.md",
+            "file": "Topic Navigation.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -232,8 +232,9 @@
   },
   "active": "8ab39a229bef20ac",
   "lastOpenFiles": [
-    "Templates/Topic Overview Template.md",
     "Templates/Enhanced Topic Overview.md",
+    "Topic Navigation.md",
+    "Templates/Topic Overview Template.md",
     "Intake/Dv test.md",
     "Templates",
     "Untitled Kanban.md",
@@ -259,7 +260,6 @@
     "Ref_Sheets",
     "temps/Experiment Template.md",
     "temps/Course MOC.md",
-    "Intake/Bookmark Ninja Mobile Share.md",
     "temps",
     "NetClip/Mind",
     "NetClip/CS",
