@@ -5,10 +5,10 @@
     },
     "dedupe-yaml-array-values": {
       "enabled": true,
-      "dedupe-alias-key": true,
+      "dedupe-alias-key": false,
       "dedupe-tag-key": true,
-      "dedupe-array-keys": true,
-      "ignore-keys": ""
+      "dedupe-array-keys": false,
+      "ignore-keys": "created\nmodified"
     },
     "escape-yaml-special-characters": {
       "enabled": false,
@@ -59,10 +59,10 @@
     },
     "yaml-timestamp": {
       "enabled": true,
-      "date-created": true,
+      "date-created": false,
       "date-created-key": "created:",
       "date-created-source-of-truth": "file system",
-      "date-modified": true,
+      "date-modified": false,
       "date-modified-key": "modified:",
       "date-modified-source-of-truth": "file system",
       "format": "YYMMDD_HH.mm",
@@ -278,7 +278,8 @@
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [
-    "Slurped Pages"
+    "Slurped Pages",
+    "Templates"
   ],
   "filesToIgnore": [],
   "linterLocale": "system-default",
