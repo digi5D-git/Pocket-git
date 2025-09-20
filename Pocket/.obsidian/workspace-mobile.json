@@ -225,11 +225,14 @@
       "obsidian-kanban:Create new board": false,
       "net-clip:NetClip": false,
       "tag-index:Open tag index": false,
-      "widgets:Add widget": false
+      "widgets:Add widget": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "8ab39a229bef20ac",
+  "active": "fb931198a1134d77",
   "lastOpenFiles": [
+    "Templates",
     "Untitled Kanban.md",
     "meta_bind_guide.md",
     "Template - Book.md",
@@ -256,7 +259,6 @@
     "Intake/Bookmark Ninja Mobile Share.md",
     "temps/Protocol MOC.md",
     "temps/Lab Inventory MOC.md",
-    "temps/Topic MOC Template.md",
     "temps",
     "NetClip/Mind",
     "NetClip/CS",
