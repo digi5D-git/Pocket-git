@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Untitled.md",
+                "file": "Templates/Enhanced Topic Overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Enhanced Topic Overview"
             }
           }
         ]
@@ -146,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Templates/Untitled.md",
+            "file": "Templates/Enhanced Topic Overview.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -233,7 +233,7 @@
   "active": "8ab39a229bef20ac",
   "lastOpenFiles": [
     "Templates/Topic Overview Template.md",
-    "Templates/Untitled.md",
+    "Templates/Enhanced Topic Overview.md",
     "Intake/Dv test.md",
     "Templates",
     "Untitled Kanban.md",
