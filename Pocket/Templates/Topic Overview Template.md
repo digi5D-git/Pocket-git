@@ -45,6 +45,8 @@ SORT file.mtime DESC
 LIMIT 20
 ```
 
+## Stats
+
 ```
 TABLE WITHOUT ID
   "📊 **Total Notes**: " + length(rows) as "Count"
