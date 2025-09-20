@@ -5,7 +5,7 @@ tags:
 icon:
 uID:: chapter_04
 generated:: 250920 // 12.07
-mod:: 250920 // 14.07
+mod:: 250920 // 14.08
 ---
 
 # Chapter 4: Communication & Connectivity

@@ -37,15 +37,17 @@ body {
   --quote-padding: 10px 15px 10px 15px;
   --quote-font-size: var(--default-font-size);
   --quote-icon: "“";
-  --hide-empty-properties: none;
+  /*
+--hide-empty-properties: none;
   --hide-add-button: none;
-  --hide-separator-yaml: none;
+  --hide-separator-yaml: none; 
+*/
   --hide-callout-title: none;
   --callouts-align-text: justify;
   --callout-font-size-title: 16px;
   --properties-icon-size: unset;
-  --separator-icon: "o0o";
-  --separator-icon-color: #6C6C6C6B
+  --separator-icon: "⬦⚝⬦";
+  --separator-icon-color: #e4d00a
   --show-explorer-buttons: none;
   --icon-settings: none;
   --num-of-notes: none;
@@ -500,9 +502,11 @@ body:not(.no-codeblock-line-numbers)
  /* display: none;*/
 }
 
+/*
 .frontmatter-container {
 /*	display: none; */
 }
+*/
 
 .cm-hmd-frontmatter {
   background: var(--background-modifier-box-shadow) !important;
@@ -658,9 +662,11 @@ tr:last-child td:last-child {
 
 
 /* HIDE EMPTY PROPERTY */
+/*
 .metadata-property:has([placeholder="No value"]) {
   display: var(--hide-empty-properties) !important;
 }
+*/
 
 /* HIDE HEADER */
 .metadata-properties-heading {
@@ -943,6 +949,7 @@ hr {
 
 
 /* ::::: HIDE EXPLORER BUTTONS :::::: */
+/*
 .nav-header{
   display: var(--show-explorer-buttons) !important;
   border-radius: var(--radius-s);
@@ -953,11 +960,14 @@ hr {
   border: 1px solid var(--background-modifier-border);
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px !important;
 }
+*/
 
 /* HIDE EXPLORER FOLDER ICON */
+/*
 .collapse-icon svg.svg-icon {
   display: none;
 }
+*/
 
 
 /* :::::  SETTINGS  ::::: */
@@ -993,10 +1003,12 @@ hr {
 }
 
 /* :::::  HIDE VAULT NAME ::::: */
+/*
 .workspace-drawer-header-switcher {
   display: var(--show-vault-name);
   font-style: normal;
 }
+*/
 
 .workspace-drawer-header-name {}
 
@@ -1402,7 +1414,7 @@ body, .folder-notebooks {
 
 /* ::::: CUSTOM TOOLBAR PLUGIN ::::: */
 .callout[data-callout="note-toolbar"] {
-  border-radius: var(--radius-s);
+  border-radius: 8px; /* var(--radius-s); */
   box-shadow: var(--background-modifier-box-shadow) 0px 0px 0px 0px;
 }
 
