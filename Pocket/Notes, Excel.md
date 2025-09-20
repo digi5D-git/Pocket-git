@@ -8,9 +8,11 @@ generated:: 250917 // 06.40
 mod:: 250920 // 14.48
 ---
 
->[!infobox] iBox callout
+>[!infobox-right] iBox callout
 > the infobox
-l## UNIX Timestamps
+
+
+## UNIX Timestamps
 
 > [!info] UNIX differences
 > **10** digit UNIX timestamps: Date & time down to seconds
