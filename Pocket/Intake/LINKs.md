@@ -14,3 +14,8 @@ mod:: 250920 // 12.33
 
 ## JavaScript
 -  [Learn JS](https://www.javascript.com/learn/strings)<www.javascript.com/learn/strings>)￼
+
+
+## Powershell
+-  [Microsoft Powershell](https://learn.microsoft.com/en-us/powershell/)
+- 
