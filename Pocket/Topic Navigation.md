@@ -56,3 +56,4 @@ action Templater: Create new note from template
 templater True
 ```
 
+</div>
