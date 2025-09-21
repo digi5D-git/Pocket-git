@@ -20,7 +20,7 @@ const description = await tp.system.prompt("Brief description:");
 <% description %>
 
 ## Related Notes
-```dataview
+```datacards
 TABLE WITHOUT ID
   "📝 " + file.link as "Note",
   choice(summary, summary + "...", "No summary available") as "Summary",

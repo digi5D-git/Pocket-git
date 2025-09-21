@@ -33,6 +33,8 @@ action Templater: Create new note from template
 templater True
 ```
 </div>
+
+
 ## Quick Look
 ```dataview
 TABLE WITHOUT ID
@@ -45,7 +47,6 @@ GROUP BY category
 SORT category ASC
 ```
 
-
 ## Recent
 ```dataview
 TABLE WITHOUT ID
@@ -54,5 +55,5 @@ TABLE WITHOUT ID
   dateformat(file.mtime, "MMM dd, HH:mm") as "Modified"
 FROM ""
 SORT file.mtime DESC
-LIMIT 10
+LIMIT 4
 ```
