@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Topic Overview Template.md",
+                "file": "Templates/Enhanced Topic Overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Topic Overview Template"
+              "title": "Enhanced Topic Overview"
             }
           }
         ]
@@ -146,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Templates/Topic Overview Template.md",
+            "file": "Templates/Enhanced Topic Overview.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -233,7 +233,7 @@
   "active": "8ab39a229bef20ac",
   "lastOpenFiles": [
     "Templates/Topic Overview Template.md",
-    "Templates/Topic Overview Template.md",
+    "Templates/Enhanced Topic Overview.md",
     "Topic Navigation.md",
     "Templates/Enhanced Topic Overview.md",
     "Intake/Dv test.md",
@@ -259,7 +259,6 @@
     "Termux-Command-Handbook/Chapter1.md",
     "Termux-Command-Handbook/chapter_01.md",
     "Ref_Sheets",
-    "temps/Experiment Template.md",
     "temps",
     "NetClip/Mind",
     "NetClip/CS",
