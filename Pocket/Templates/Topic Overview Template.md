@@ -58,3 +58,7 @@ WHERE contains(lower(file.name), "<% topic.toLowerCase() %>") OR
 SORT file.mtime DESC
 LIMIT 5
 ```
+
+
+>[!info] Noted on:
+*<% tp.date.now("YYYY-MM-DD HH:mm") %>*
