@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Navigation.md",
-                "mode": "preview",
+                "file": "Navigation Hub.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Topic Navigation"
+              "title": "Navigation Hub"
             }
           }
         ]
@@ -146,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Topic Navigation.md",
+            "file": "Navigation Hub.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -229,15 +229,21 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "fb931198a1134d77",
+  "active": "f3ffcf5bbfe38c4b",
   "lastOpenFiles": [
+    "Topic Navigation.md",
+    "Navigation Hub.md",
+    "Templates/Scripts/generateCodePlaceholder.js",
+    "Templates/Scripts/getCodeBlockPurpose.js",
+    "Templates/Scripts/getLanguagesByCategory.js",
+    "Templates/Scripts/createCodeBlock.js",
+    "Templates/Scripts/createCustomTable.js",
     "Templates/Scripts/getCategories.js",
     "Templates/Scripts",
     "Intake/Untitled.md",
     "Templates/Dynamic.md",
     "Slurped Pages/The TC39 Process.md",
     "-- JSON Book.md",
-    "Topic Navigation.md",
     "The LaTeX3 Project.md",
     "Templates/Enhanced Topic Overview.md",
     "Templates/Topic Overview Template.md",
@@ -261,12 +267,6 @@
     "Termux-Command-Handbook/chapter_03.md",
     "Ref_Sheets",
     "temps",
-    "NetClip/Mind",
-    "NetClip/CS",
-    "NetClip/Design",
-    "NetClip/Tech",
-    "NetClip/Research",
-    "NetClip/Articles",
     "typeface anatomy.jpg",
     "Anatomy of Typeface.jpg",
     "digi5d.png",
