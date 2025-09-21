@@ -3,7 +3,7 @@
 name New Entry
 type command
 action Templater: Create new note from template
-template Category Note Template
+template Category Note
 ```
 
 ## Categories
