@@ -26,3 +26,9 @@ action Templater: Create new note from template
 templater True
 ```
 
+```button
+name Mind
+type command
+action Templater: Create new note from template
+templater True
+```
