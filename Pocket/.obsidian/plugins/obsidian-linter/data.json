@@ -119,7 +119,7 @@
     },
     "blockquote-style": {
       "enabled": true,
-      "style": "space"
+      "style": "no space"
     },
     "convert-bullet-list-markers": {
       "enabled": true
