@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Navigation Hub.md",
+                "file": "Hub.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Navigation Hub"
+              "title": "Hub"
             }
           }
         ]
@@ -146,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Navigation Hub.md",
+            "file": "Hub.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -232,7 +232,7 @@
   "active": "f3ffcf5bbfe38c4b",
   "lastOpenFiles": [
     "Topic Navigation.md",
-    "Navigation Hub.md",
+    "Hub.md",
     "Templates/Scripts/generateCodePlaceholder.js",
     "Templates/Scripts/getCodeBlockPurpose.js",
     "Templates/Scripts/getLanguagesByCategory.js",
