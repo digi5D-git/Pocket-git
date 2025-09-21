@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "846d63ff8d1de99d",
+        "id": "f5452e70285a9046",
         "type": "tabs",
         "children": [
           {
-            "id": "8ab39a229bef20ac",
+            "id": "e12f59a1fdc242e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Enhanced Topic Overview.md",
-                "mode": "preview",
+                "file": "Topic Navigation.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Enhanced Topic Overview"
+              "title": "Topic Navigation"
             }
           }
         ]
@@ -146,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Templates/Enhanced Topic Overview.md",
+            "file": "Topic Navigation.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -230,12 +230,12 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "8ab39a229bef20ac",
+  "active": "e12f59a1fdc242e9",
   "lastOpenFiles": [
-    "Templates/Topic Overview Template.md",
-    "Templates/Enhanced Topic Overview.md",
     "Topic Navigation.md",
     "Templates/Enhanced Topic Overview.md",
+    "Templates/Topic Overview Template.md",
+    "Topic Navigation.md",
     "Intake/Dv test.md",
     "Templates",
     "Untitled Kanban.md",
