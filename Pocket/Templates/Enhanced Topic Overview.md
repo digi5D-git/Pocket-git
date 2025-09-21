@@ -60,3 +60,5 @@ if (pages.length === 0) {
     `);
 }
 ```
+## statistics
+
