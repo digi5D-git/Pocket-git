@@ -92,6 +92,7 @@ GROUP BY category
 SORT category ASC
 ```
 
+
 ## 📈 Recent Activity
 
 ```dataview
