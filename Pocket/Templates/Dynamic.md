@@ -6,6 +6,7 @@ type: "<% noteType %>"
 created: <% tp.date.now("YYYY-MM-DD") %>
 ---
 
+
 <%*
 // Predefined categories list
 const categories = [
