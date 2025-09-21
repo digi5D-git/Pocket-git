@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "temps/Core Idea.md",
-                "mode": "source",
+                "file": "Templates/Topic Overview Template.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Core Idea"
+              "title": "Topic Overview Template"
             }
           }
         ]
@@ -146,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "temps/Core Idea.md",
+            "file": "Templates/Topic Overview Template.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -232,9 +232,10 @@
   },
   "active": "e12f59a1fdc242e9",
   "lastOpenFiles": [
-    "Templates/Programming, Language Specific.md",
-    "Topic Navigation.md",
     "Templates/Enhanced Topic Overview.md",
+    "Templates/Programming, Language Specific.md",
+    "temps/Core Idea.md",
+    "Topic Navigation.md",
     "Templates/Topic Overview Template.md",
     "Intake/Dv test.md",
     "Templates",
@@ -246,7 +247,6 @@
     "Notes, Excel.md",
     "Idex.md",
     "Intake/Luxon, JavaScript Date & Time Wrapper.md",
-    "temps/Core Idea.md",
     "temps/Project MOC Template.md",
     "temps/Project Note Template.md",
     "Intake/LINKs.md",
