@@ -48,7 +48,7 @@ LIMIT 20
 
 ## Stats
 
-```
+```dataview
 TABLE WITHOUT ID
   "📊 **Total Notes**: " + length(rows) as "Count"
 FROM ""
@@ -60,7 +60,7 @@ WHERE contains(lower(file.name), "<% topic.toLowerCase() %>") OR
 
 ## Recent
 
-```
+```dataview
 LIST
 FROM ""
 WHERE contains(lower(file.name), "<% topic.toLowerCase() %>") OR 

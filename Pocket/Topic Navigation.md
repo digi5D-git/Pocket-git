@@ -15,6 +15,15 @@ type: navigation
 
 Welcome to your interactive topic navigation system. Click any button below to explore notes in that category.
 
+
+```button
+name Create Python Overview
+type command
+action Templater: Create new note from template
+templater True
+color blue
+```
+
 <div class="topic-navigation">
 
 ```button
