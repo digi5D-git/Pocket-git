@@ -8,10 +8,11 @@ template Category Note Template
 
 ## Categories
 
-| Category         | Category         |
-|------------------|-----------------|
-| [[Coding Index]] | [[Design Index]] |
-| [[Data Interchange Format Index]] | [[Command Line Index]] |
-| [[Computer Science Index]] | [[Science Index]] |
-| [[Logic & Reasoning Index]] | [[Project & Research Index]] |
-| [[Android Index]] | [[PC Index]] |
+| Category                          | Category                     |
+| --------------------------------- | ---------------------------- |
+| [[Coding Index]]                  | [[Design Index]]             |
+| [[Data Interchange Format Index]] | [[Command Line Index]]       |
+| [[Computer Science Index]]        | [[Science Index]]            |
+| [[Logic & Reasoning Index]]       | [[Project & Research Index]] |
+| [[Android Index]]                 | [[PC Index]]                 |
+
