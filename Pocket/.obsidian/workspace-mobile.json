@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hub.md",
+                "file": "Templates/Category Note.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Hub"
+              "title": "Category Note"
             }
           }
         ]
@@ -146,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Hub.md",
+            "file": "Templates/Category Note.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -231,8 +231,9 @@
   },
   "active": "f3ffcf5bbfe38c4b",
   "lastOpenFiles": [
-    "Topic Navigation.md",
     "Hub.md",
+    "Templates/Category Note.md",
+    "Topic Navigation.md",
     "Templates/Scripts/generateCodePlaceholder.js",
     "Templates/Scripts/getCodeBlockPurpose.js",
     "Templates/Scripts/getLanguagesByCategory.js",
@@ -264,7 +265,6 @@
     "Intake/LINKs.md",
     "temps/Dashboard.md",
     "Termux-Command-Handbook/chapter_04.md",
-    "Termux-Command-Handbook/chapter_03.md",
     "Ref_Sheets",
     "temps",
     "typeface anatomy.jpg",
