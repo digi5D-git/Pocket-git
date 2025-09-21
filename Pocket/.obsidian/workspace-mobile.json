@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Slurped Pages/The TC39 Process.md",
-                "mode": "preview",
+                "file": "Templates/Untitled.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The TC39 Process"
+              "title": "Untitled"
             }
           }
         ]
@@ -146,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Slurped Pages/The TC39 Process.md",
+            "file": "Templates/Untitled.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -231,6 +231,8 @@
   },
   "active": "e12f59a1fdc242e9",
   "lastOpenFiles": [
+    "Slurped Pages/The TC39 Process.md",
+    "Templates/Untitled.md",
     "-- JSON Book.md",
     "Topic Navigation.md",
     "Intake/Untitled.md",
@@ -256,8 +258,6 @@
     "Termux-Command-Handbook/chapter_04.md",
     "Termux-Command-Handbook/chapter_03.md",
     "Termux-Command-Handbook/chapter_02.md",
-    "Intake/JavaScript Libraries.md",
-    "Ref_Sheets/The Ultimate Guide to Termux Commands.md",
     "Ref_Sheets",
     "temps",
     "NetClip/Mind",
