@@ -4,7 +4,6 @@
   "calendar",
   "obsidian-style-settings",
   "quickadd",
-  "obsidian-linter",
   "cmdr",
   "mononote",
   "metadata-menu",
@@ -40,5 +39,6 @@
   "obsidian-columns",
   "buttons",
   "darlal-switcher-plus",
-  "auto-note-mover"
+  "auto-note-mover",
+  "obsidian-linter"
 ]

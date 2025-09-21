@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic Navigation.md",
-                "mode": "preview",
+                "file": "Templates/Programming, Language Specific.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Topic Navigation"
+              "title": "Programming, Language Specific"
             }
           }
         ]
@@ -146,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Topic Navigation.md",
+            "file": "Templates/Programming, Language Specific.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -233,9 +233,9 @@
   "active": "e12f59a1fdc242e9",
   "lastOpenFiles": [
     "Topic Navigation.md",
+    "Templates/Programming, Language Specific.md",
     "Templates/Enhanced Topic Overview.md",
     "Templates/Topic Overview Template.md",
-    "Topic Navigation.md",
     "Intake/Dv test.md",
     "Templates",
     "Untitled Kanban.md",

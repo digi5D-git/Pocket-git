@@ -8,7 +8,7 @@
       "dedupe-alias-key": false,
       "dedupe-tag-key": true,
       "dedupe-array-keys": false,
-      "ignore-keys": "created\nmodified"
+      "ignore-keys": ""
     },
     "escape-yaml-special-characters": {
       "enabled": false,
@@ -32,10 +32,10 @@
     },
     "insert-yaml-attributes": {
       "enabled": true,
-      "text-to-insert": "cssclass:\ntags:\nicon:\niconcolor:\nindx:"
+      "text-to-insert": "cssclass:\nsubset:"
     },
     "move-tags-to-yaml": {
-      "enabled": true,
+      "enabled": false,
       "how-to-handle-existing-tags": "Remove hashtag",
       "tags-to-ignore": ""
     },
@@ -58,7 +58,7 @@
       "yaml-sort-order-for-other-keys": "None"
     },
     "yaml-timestamp": {
-      "enabled": true,
+      "enabled": false,
       "date-created": false,
       "date-created-key": "created:",
       "date-created-source-of-truth": "file system",
@@ -71,7 +71,7 @@
     },
     "yaml-title": {
       "enabled": true,
-      "title-key": "fn",
+      "title-key": "file",
       "mode": "filename"
     },
     "yaml-title-alias": {
