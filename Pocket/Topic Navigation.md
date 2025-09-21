@@ -79,3 +79,16 @@ color indigo
 ```
 
 </div>
+## 🔍 Quick Search by Topic
+
+```dataview
+TABLE WITHOUT ID
+  "📂 " + choice(category, category, "Uncategorized") as "Category",
+  length(rows) as "Notes Count",
+  "[[" + choice(category, category + " Overview", "Uncategorized Overview") + "]]" as "View All"
+FROM ""
+WHERE category != null
+GROUP BY category
+SORT category ASC
+```
+
