@@ -33,6 +33,17 @@ WHERE contains(lower(file.name), "<% topic.toLowerCase() %>") OR
       contains(lower(file.frontmatter.subcategory), "<% topic.toLowerCase() %>")
 SORT file.mtime DESC
 LIMIT 20
+
+// Settings
+preset: grid
+columns: 4
+fontSize: small
+showLabels: true
+propertiesAlign: center
+titleAlign: center
+enableShadows: true
+mobilePreset: compact
+mobileColumns: 1
 ```
 
 
