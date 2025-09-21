@@ -46,5 +46,13 @@ SORT category ASC
 ```
 
 
-```
+## Recent
+```dataview
+TABLE WITHOUT ID
+  "📝 " + file.link as "Recently Modified",
+  choice(category, category, "General") as "Category", 
+  dateformat(file.mtime, "MMM dd, HH:mm") as "Modified"
+FROM ""
+SORT file.mtime DESC
+LIMIT 10
 ```
