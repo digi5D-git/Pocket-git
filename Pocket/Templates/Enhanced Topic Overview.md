@@ -60,5 +60,31 @@ if (pages.length === 0) {
     `);
 }
 ```
-## statistics
+
+## Statistics
+```dataviewjs
+const topic = "<% topic.toLowerCase() %>";
+const pages = dv.pages().where(p => 
+    p.file.name.toLowerCase().includes(topic) ||
+    (p.file.tags && p.file.tags.some(tag => tag.toLowerCase().includes(topic))) ||
+    (p.category && p.category.toLowerCase().includes(topic)) ||
+    (p.subcategory && p.subcategory.toLowerCase().includes(topic))
+);
+
+const totalNotes = pages.length;
+const recentNotes = pages.where(p => p.file.mtime > dv.date("now").minus({days: 30})).length;
+const completedNotes = pages.where(p => p.status === "Complete").length;
+
+dv.paragraph(`
+<div class="note-summary-card">
+    <div class="note-title">📈 <% topic %> Statistics</div>
+    <div class="note-summary">
+        • **Total Notes**: ${totalNotes}<br>
+        • **Recent Updates**: ${recentNotes} (last 30 days)<br>
+        • **Completed**: ${completedNotes}<br>
+        • **In Progress**: ${totalNotes - completedNotes}
+    </div>
+</div>
+`);
+```
 
