@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hub.md",
-                "mode": "preview",
+                "file": "Intake/Data Interchange Format Index.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Hub"
+              "title": "Data Interchange Format Index"
             }
           }
         ]
@@ -146,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Hub.md",
+            "file": "Intake/Data Interchange Format Index.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -231,8 +231,10 @@
   },
   "active": "f3ffcf5bbfe38c4b",
   "lastOpenFiles": [
-    "Templates/Category Note.md",
     "Hub.md",
+    "Intake/Data Interchange Format Index.md",
+    "Intake/Coding Index.md",
+    "Templates/Category Note.md",
     "Topic Navigation.md",
     "Templates/Scripts/generateCodePlaceholder.js",
     "Templates/Scripts/getCodeBlockPurpose.js",
@@ -263,8 +265,6 @@
     "temps/Project MOC Template.md",
     "temps/Project Note Template.md",
     "Intake/LINKs.md",
-    "temps/Dashboard.md",
-    "Termux-Command-Handbook/chapter_04.md",
     "Ref_Sheets",
     "temps",
     "typeface anatomy.jpg",
