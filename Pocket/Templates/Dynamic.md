@@ -1,6 +1,4 @@
 
-
-
 ---
 category: "<% selectedCategory %>"
 subcategory: "<% selectedSubcategory %>"
@@ -176,8 +174,11 @@ Your detailed content goes here...
 - [Link 1]()
 - [Link 2]()
 
----
+```
 *Created: <% tp.date.now("YYYY-MM-DD HH:mm") %>*
 *Tags: <% autoTags.map(tag => `#${tag}`).join(' ') %>*
 ```
+
+
+
 
