@@ -150,5 +150,34 @@ ${placeholderContent}
 
 -%>
 
+# <% noteTitle %>
 
+## Overview
+*Brief description goes here...*
+
+**Category**: <% selectedCategory %> â†’ <% selectedSubcategory %>  
+**Action**: <% action %>
+
+<% tableContent %>
+
+## Content
+
+### Abstraction Points
+- Point 1
+- Point 2  
+- Point 3
+
+### Details
+Your detailed content goes here...
+
+<% codeBlockContent %>
+
+## References
+- [Link 1]()
+- [Link 2]()
+
+---
+*Created: <% tp.date.now("YYYY-MM-DD HH:mm") %>*
+*Tags: <% autoTags.map(tag => `#${tag}`).join(' ') %>*
+```
 
