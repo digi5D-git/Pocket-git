@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Topic Overview Template.md",
-                "mode": "preview",
+                "file": "Templates/Untitled.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Topic Overview Template"
+              "title": "Untitled"
             }
           }
         ]
@@ -146,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Templates/Topic Overview Template.md",
+            "file": "Templates/Untitled.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -232,9 +232,10 @@
   },
   "active": "8ab39a229bef20ac",
   "lastOpenFiles": [
+    "Templates/Topic Overview Template.md",
+    "Templates/Untitled.md",
     "Topic Navigation.md",
     "Templates/Enhanced Topic Overview.md",
-    "Templates/Topic Overview Template.md",
     "Intake/Dv test.md",
     "Templates",
     "Untitled Kanban.md",
@@ -259,7 +260,6 @@
     "Termux-Command-Handbook/chapter_01.md",
     "Ref_Sheets",
     "temps/Experiment Template.md",
-    "temps/Course MOC.md",
     "temps",
     "NetClip/Mind",
     "NetClip/CS",
