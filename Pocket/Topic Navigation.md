@@ -14,8 +14,15 @@ templater True
 ```
 
 ```button
-name Web Design & Development
+name Web Design and Development
 type command
 action Templater: Create new note from template
 templater True
 ```
+```button
+name Sciences and Technology
+type command
+action Templater: Create new note from template
+templater True
+```
+
