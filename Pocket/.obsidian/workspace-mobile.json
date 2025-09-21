@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Untitled.md",
+                "file": "Templates/Topic Overview Template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Topic Overview Template"
             }
           }
         ]
@@ -146,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Templates/Untitled.md",
+            "file": "Templates/Topic Overview Template.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -233,7 +233,7 @@
   "active": "8ab39a229bef20ac",
   "lastOpenFiles": [
     "Templates/Topic Overview Template.md",
-    "Templates/Untitled.md",
+    "Templates/Topic Overview Template.md",
     "Topic Navigation.md",
     "Templates/Enhanced Topic Overview.md",
     "Intake/Dv test.md",
