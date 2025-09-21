@@ -14,7 +14,8 @@
     "Minimal Theme cards",
     "infobox_callout",
     "font-hyperlegible",
-    "Background for Kanban"
+    "Background for Kanban",
+    "topic-navigation-buttons"
   ],
   "theme": "obsidian",
   "baseFontSize": 14
