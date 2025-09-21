@@ -17,3 +17,6 @@ const description = await tp.system.prompt("Brief description:");
 <div class="note-title"><% topic %> Overview</div>
 <div class="note-summary"><% description %></div>
 </div>
+
+## All Notes
+```dataviewjs
