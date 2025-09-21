@@ -30,7 +30,7 @@
   "kanbanHideEmptyColumns": false,
   "kanbanShowColumnCounts": true,
   "kanbanCompactCards": false,
-  "kanbanMobileStackColumns": false,
+  "kanbanMobileStackColumns": true,
   "kanbanStatusOptions": [
     "todo",
     "in-progress",

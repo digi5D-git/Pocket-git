@@ -1,25 +1,10 @@
 {
   "pluginList": [
-    "mathe00/obsidian-plugin-python-bridge",
-    "RavenHogWarts/obsidian-next-toc",
-    "RavenHogWarts/obsidian-ravenhogwarts-toolkit",
-    "anareaty/pretty-properties"
+    "RavenHogWarts/obsidian-ravenhogwarts-toolkit"
   ],
   "pluginSubListFrozenVersion": [
     {
-      "repo": "mathe00/obsidian-plugin-python-bridge",
-      "version": "latest"
-    },
-    {
-      "repo": "RavenHogWarts/obsidian-next-toc",
-      "version": "latest"
-    },
-    {
       "repo": "RavenHogWarts/obsidian-ravenhogwarts-toolkit",
-      "version": "latest"
-    },
-    {
-      "repo": "anareaty/pretty-properties",
       "version": "latest"
     }
   ],
