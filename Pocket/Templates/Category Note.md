@@ -14,15 +14,15 @@ const categories = [
 
 const subcategories = {
     "Coding": ["JavaScript", "Python", "Java", "C++", "Go", "Rust", "Typescript", "General"],
-    "Data Interchange Format": ["JSON", "XML", "YAML", "Markup", "LaTeX", "TeX", "Standardization"],
-    "Design": ["CSS", "HTML", "Color", "Typography", "Concept & Theory", "UI/UX"],
+    "Data Interchange Format": ["JSON", "XML", "YAML", "Markup", "LaTeX", "TeX", "Standardization", "General"],
+    "Design": ["CSS", "HTML", "Color", "Typography", "Concept & Theory", "UI/UX", "General"],
     "Command Line": ["Powershell", "BASH", "CMD", "Regex", "Scripting", "Shell", "General"],
-    "Computer Science": ["Algorithm", "Data Structures", "Computation", "Systems & Architecture", "Theory", "Network & Security"],
-    "Science": ["Physics", "Mathematics", "Theory", "White Paper"],
-    "Logic & Reasoning": ["Logic", "Philosophy", "Deduction & Reason", "Study"],
-    "Project & Research": ["Project Note", "Idea", "Supporting Information", "Research"],
-    "Android": ["Android System", "Mobile Applications", "App Guides", "App Development", "Apps of Interest"],
-    "PC": ["Operating System", "Hardware", "App Guides", "App Development", "Apps of Interest"]
+    "Computer Science": ["Algorithm", "Data Structures", "Computation", "Systems & Architecture", "Theory", "Network & Security", "General"],
+    "Science": ["Physics", "Mathematics", "Theory", "White Paper", "General"],
+    "Logic & Reasoning": ["Logic", "Philosophy", "Deduction & Reason", "Study", "General"],
+    "Project & Research": ["Project Note", "Idea", "Supporting Information", "Research", "General"],
+    "Android": ["Android System", "Mobile Applications", "App Guides", "App Development", "Apps of Interest", "General"],
+    "PC": ["Operating System", "Hardware", "App Guides", "App Development", "Apps of Interest", "General"]
 };
 
 const registers = [
@@ -34,16 +34,19 @@ const registers = [
     "Archive"
 ];
 
+// Prompt for metadata
 const category = await tp.system.suggester(categories, categories);
 const availableSubcategories = subcategories[category] || ["General"];
 const subcategory = await tp.system.suggester(availableSubcategories, availableSubcategories);
 const register = await tp.system.suggester(registers, registers);
-const noteTitle = await tp.system.prompt("Note title:");
+let noteTitle = await tp.system.prompt("Note title:");
+if (!noteTitle) noteTitle = tp.file.title;
 
-const wantsTable = await tp.system.suggester(["Yes", "No"], [true,false]);
+// Optionally add table
+const wantsTable = await tp.system.suggester(["Yes", "No"], [true, false]);
 let tableContent = "";
 if (wantsTable) {
-    const numColumns = parseInt(await tp.system.prompt("Number of table columns (2-6):", "3"));
+    const numColumns = parseInt(await tp.system.prompt("Number of table columns (2-6):", "3"), 10);
     let headers = [];
     for (let i = 0; i < numColumns; i++) {
         headers.push(await tp.system.prompt(`Column ${i+1} header:`, `Column ${i+1}`));
@@ -54,6 +57,7 @@ if (wantsTable) {
     tableContent = `\n## Table\n${headerRow}\n${separatorRow}\n${exampleRow}\n`;
 }
 
+// Optionally add code block
 const wantsCodeBlock = await tp.system.suggester(["Yes", "No"], [true, false]);
 let codeBlockContent = "";
 if (wantsCodeBlock) {
