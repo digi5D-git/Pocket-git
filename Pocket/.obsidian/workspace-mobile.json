@@ -21,8 +21,19 @@
               "icon": "lucide-file",
               "title": "Topic Overview Template"
             }
+          },
+          {
+            "id": "7779c8603855562a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +157,6 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Templates/Topic Overview Template.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -230,13 +240,13 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "e12f59a1fdc242e9",
+  "active": "7779c8603855562a",
   "lastOpenFiles": [
+    "Templates/Topic Overview Template.md",
     "Templates/Enhanced Topic Overview.md",
     "Templates/Programming, Language Specific.md",
     "temps/Core Idea.md",
     "Topic Navigation.md",
-    "Templates/Topic Overview Template.md",
     "Intake/Dv test.md",
     "Templates",
     "Untitled Kanban.md",
