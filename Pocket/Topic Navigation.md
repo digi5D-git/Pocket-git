@@ -92,3 +92,15 @@ GROUP BY category
 SORT category ASC
 ```
 
+## 📈 Recent Activity
+
+```dataview
+TABLE WITHOUT ID
+  "📝 " + file.link as "Recently Modified",
+  choice(category, category, "General") as "Category", 
+  choice(subcategory, subcategory, "General") as "Subcategory",
+  dateformat(file.mtime, "MMM dd, HH:mm") as "Modified"
+FROM ""
+SORT file.mtime DESC
+LIMIT 10
+```
