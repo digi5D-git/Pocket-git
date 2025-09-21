@@ -1,12 +1,13 @@
 /* Topic Navigation Buttons Styling */
 
-/* Container for button grid */
+/* Container for button grid - 2 column layout */
 .topic-navigation {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 16px;
     padding: 20px 0;
     margin: 20px 0;
+    max-width: 800px;
 }
 
 /* Individual topic buttons */
@@ -24,6 +25,10 @@
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     text-decoration: none;
     display: block;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .topic-button:hover {
@@ -33,7 +38,7 @@
     color: white;
 }
 
-/* Specific topic colors */
+/* Updated topic button colors for custom categories */
 .topic-button.coding {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
@@ -82,22 +87,37 @@
     margin-bottom: 8px;
 }
 
-/* Mobile responsive */
+/* Mobile responsive - single column on small screens */
 @media (max-width: 768px) {
     .topic-navigation {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-columns: 1fr;
         gap: 12px;
         padding: 15px 0;
+        max-width: 100%;
     }
     
     .topic-button {
         padding: 16px 12px;
         font-size: 14px;
+        min-height: 50px;
     }
     
     .topic-button::before {
         font-size: 20px;
         margin-bottom: 6px;
+    }
+}
+
+/* Tablet responsive - maintain 2 columns on medium screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .topic-navigation {
+        gap: 14px;
+        max-width: 600px;
+    }
+    
+    .topic-button {
+        padding: 18px;
+        font-size: 15px;
     }
 }
 
