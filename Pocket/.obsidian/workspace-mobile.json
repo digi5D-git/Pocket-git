@@ -40,13 +40,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intake/Home, Coordinates.md",
-                "mode": "preview",
+                "file": "Termux-Command-Handbook/Package Update.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Home, Coordinates"
+              "title": "Package Update"
             }
           }
         ],
@@ -174,7 +174,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Intake/Home, Coordinates.md",
+            "file": "Termux-Command-Handbook/Package Update.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -269,8 +269,9 @@
   },
   "active": "796e5d55622e3d29",
   "lastOpenFiles": [
-    "Anatomy of Typeface.jpg",
     "Intake/Home, Coordinates.md",
+    "Termux-Command-Handbook/Package Update.md",
+    "Anatomy of Typeface.jpg",
     "ExTyp_stylesettings.json",
     "Intake/Racket Programming, Links.md",
     "Untitled",
