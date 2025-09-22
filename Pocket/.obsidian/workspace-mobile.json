@@ -48,9 +48,24 @@
               "icon": "lucide-file",
               "title": "An Introduction to Racket with Pictures"
             }
+          },
+          {
+            "id": "cbf167b2d9d25a06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intake/Image Hosting Site.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Image Hosting Site"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -174,7 +189,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Slurped Pages/An Introduction to Racket with Pictures.md",
+            "file": "Intake/Image Hosting Site.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -267,8 +282,10 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "796e5d55622e3d29",
+  "active": "cbf167b2d9d25a06",
   "lastOpenFiles": [
+    "Slurped Pages/An Introduction to Racket with Pictures.md",
+    "Intake/Image Hosting Site.md",
     "Slurped Pages/A Defense of Reason in an Age of Digital Stupidity.md",
     "Slurped Pages/Accidentally Turing-Complete.md",
     "Intake/Racket Programming, Links.md",
@@ -296,8 +313,6 @@
     "Intake/Android Index.md",
     "Intake/Coding Index.md",
     "Templates/Category Note.md",
-    "Hub.md",
-    "Intake/PC Index.md",
     "Templates/Scripts/generateCodePlaceholder.js",
     "Templates/Scripts/getCodeBlockPurpose.js",
     "Templates/Scripts/getLanguagesByCategory.js",
