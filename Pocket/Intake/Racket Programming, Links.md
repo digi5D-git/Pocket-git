@@ -6,6 +6,7 @@ aliases: "Racket Programming, Links"
 key: "Racket Programming, Links"
 ---
 
-| Title |     |
-| ----- | --- |
-|       |     |
+| Title        | URL |
+| ------------ | --- |
+| Racket Intro |     |
+|              |     |
