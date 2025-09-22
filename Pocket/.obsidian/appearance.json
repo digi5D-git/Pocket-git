@@ -1,5 +1,5 @@
 {
-  "cssTheme": "Nostromo",
+  "cssTheme": "Primary",
   "accentColor": "#b8a037",
   "interfaceFontFamily": "Helvetica Neue",
   "textFontFamily": "Google Sans",
@@ -14,7 +14,8 @@
     "Minimal Theme cards",
     "font-hyperlegible",
     "Background for Kanban",
-    "topic-navigation-buttons"
+    "topic-navigation-buttons",
+    "nostromoStyle"
   ],
   "theme": "obsidian",
   "baseFontSize": 14
