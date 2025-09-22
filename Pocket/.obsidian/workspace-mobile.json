@@ -41,7 +41,7 @@
               "type": "markdown",
               "state": {
                 "file": "Intake/Home, Coordinates.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -224,9 +224,19 @@
           "icon": "globe",
           "title": "Web View"
         }
+      },
+      {
+        "id": "15bccd5dac4164f3",
+        "type": "leaf",
+        "state": {
+          "type": "advanced-tables-toolbar",
+          "state": {},
+          "icon": "spreadsheet",
+          "title": "Advanced Tables"
+        }
       }
     ],
-    "currentTab": 5
+    "currentTab": 7
   },
   "left-ribbon": {
     "hiddenItems": {
