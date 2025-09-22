@@ -14,7 +14,8 @@
     "Minimal Theme cards",
     "font-hyperlegible",
     "Background for Kanban",
-    "topic-navigation-buttons"
+    "topic-navigation-buttons",
+    "WWW_Icon_Next_to_external_links"
   ],
   "theme": "obsidian",
   "baseFontSize": 14
