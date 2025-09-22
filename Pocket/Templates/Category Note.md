@@ -90,3 +90,30 @@ type: "Note"
 <% tableContent %>
 
 <% codeBlockContent %>
+
+---
+category: "Coding"
+subcategory: "JavaScript"
+register: "Reference"
+created: 2025-09-21
+type: "Note"
+---
+
+# Category Note
+
+## Overview
+*Brief description of this note*
+
+
+## Table
+|  |
+|
+|  |
+
+
+
+## Code Block
+```css
+// Your code here
+```
+
