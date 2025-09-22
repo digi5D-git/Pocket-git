@@ -10,12 +10,9 @@
     "Floating Status Bar - AnuP",
     "Multicolumns",
     "List Panels",
-    "shortCallout",
     "Minimal Theme cards",
     "font-hyperlegible",
-    "Background for Kanban",
-    "topic-navigation-buttons",
-    "WWW_Icon_Next_to_external_links"
+    "Background for Kanban"
   ],
   "theme": "obsidian",
   "baseFontSize": 14
