@@ -12,4 +12,4 @@ key: "Racket Programming, Links"
 -  [raco, Racket Command Line Tool](https://docs.racket-lang.org/raco/index.html)docs.racket-lang.org/raco/index.html)￼
 -  [Racket Cheatsheet](https://docs.racket-lang.org/racket-cheat/index.html)racket-lang.org/racket-cheat/index.html)￼
 -  [Racket Programming Style Guide](https://docs.racket-lang.org/style/index.html)docs.racket-lang.org/style/index.html)￼
-- 
+-  [Racket, Functional Relational Algebra](https://docs.racket-lang.org/fra/index.html)docs.racket-lang.org/fra/index.html)￼
