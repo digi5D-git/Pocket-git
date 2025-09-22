@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Category Note.md",
+                "file": "Intake/Android Index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Category Note"
+              "title": "Android Index"
             }
           }
         ]
@@ -146,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Templates/Category Note.md",
+            "file": "Intake/Android Index.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -231,6 +231,7 @@
   },
   "active": "f3ffcf5bbfe38c4b",
   "lastOpenFiles": [
+    "Templates/Category Note.md",
     "Hub.md",
     "Intake/PC Index.md",
     "Intake/Project & Research Index.md",
@@ -242,7 +243,6 @@
     "Intake/Computer Science Index.md",
     "Intake/Data Interchange Format Index.md",
     "Intake/Coding Index.md",
-    "Templates/Category Note.md",
     "Topic Navigation.md",
     "Templates/Scripts/generateCodePlaceholder.js",
     "Templates/Scripts/getCodeBlockPurpose.js",
