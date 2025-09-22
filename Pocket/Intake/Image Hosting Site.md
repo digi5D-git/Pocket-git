@@ -14,3 +14,9 @@ key: Image Hosting Site
 [ImageKit](https://imagekit.io/)
 		*Registered under briansrepo@gmail.com*
 		Uploads link <https://ik.imagekit.io/digi5D/path/to/myimage.jpg>
+
+>[!abstract] Test Upload
+> uploaded test image "Tsuku, CRT"
+>> <https://ik.imagekit.io/digi5D/1000000970_Glitch2.jpg?updatedAt=1758539982196>
+>> 
+
