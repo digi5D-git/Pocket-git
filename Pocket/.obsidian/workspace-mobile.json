@@ -231,6 +231,7 @@
   },
   "active": "f3ffcf5bbfe38c4b",
   "lastOpenFiles": [
+    "Slurped Pages/A beginner's guide to JSON, the data format for the internet.md",
     "Slurped Pages/10 print.md",
     "Intake/Racket Programming Language.md",
     "Intake/Luxon, JavaScript Date & Time Wrapper.md",
@@ -256,7 +257,6 @@
     "Intake/Design Index.md",
     "Intake/Logic & Reasoning Index.md",
     "Intake/Computer Science Index.md",
-    "Intake/Data Interchange Format Index.md",
     "Templates/Scripts/generateCodePlaceholder.js",
     "Templates/Scripts/getCodeBlockPurpose.js",
     "Templates/Scripts/getLanguagesByCategory.js",

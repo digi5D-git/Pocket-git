@@ -5,7 +5,6 @@ Site: "@stackoverflow"
 Abstract: As the web grows in popularity and power, so does the amount of data stored and transferred between systems, many of which know nothing about each other. From early on, the format that this data was transferred in mattered, and like the web, the best formats were open standards that anyone could use and contribute to. XML gained early popularity, as it looked like HTML, the foundation of the web. But it was clunky and confusing.
 Extracted_On: 25.1509
 Web_Title: A beginner's guide to JSON, the data format for the internet
-set: JSON
 ---
 
 As the web grows in popularity and power, so does the amount of data stored and transferred between systems, many of which know nothing about each other. From early on, the format that this data was transferred in mattered, and like the web, the best formats were open standards that anyone could use and contribute to. XML gained early popularity, as it looked like HTML, the foundation of the web. But it was clunky and confusing.
