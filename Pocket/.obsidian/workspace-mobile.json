@@ -40,13 +40,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intake/Racket Programming, Links.md",
+                "file": "Slurped Pages/An Introduction to Racket with Pictures.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Racket Programming, Links"
+              "title": "An Introduction to Racket with Pictures"
             }
           }
         ],
@@ -174,7 +174,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Intake/Racket Programming, Links.md",
+            "file": "Slurped Pages/An Introduction to Racket with Pictures.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -269,11 +269,13 @@
   },
   "active": "796e5d55622e3d29",
   "lastOpenFiles": [
+    "Slurped Pages/A Defense of Reason in an Age of Digital Stupidity.md",
+    "Slurped Pages/Accidentally Turing-Complete.md",
+    "Intake/Racket Programming, Links.md",
     "Termux-Command-Handbook/Package Update.md",
     "Intake/Home, Coordinates.md",
     "Anatomy of Typeface.jpg",
     "ExTyp_stylesettings.json",
-    "Intake/Racket Programming, Links.md",
     "Untitled",
     "Slurped Pages/A beginner's guide to JSON, the data format for the internet.md",
     "Slurped Pages/The TC39 Process.md",
@@ -296,8 +298,6 @@
     "Templates/Category Note.md",
     "Hub.md",
     "Intake/PC Index.md",
-    "Intake/Project & Research Index.md",
-    "Intake/Science Index.md",
     "Templates/Scripts/generateCodePlaceholder.js",
     "Templates/Scripts/getCodeBlockPurpose.js",
     "Templates/Scripts/getLanguagesByCategory.js",
