@@ -54,8 +54,7 @@ Although preferable to soiling our HTML with inline presentation, it is similarl
 
 External styles are used for the whole, multiple-page website. There is a **separate CSS file**, which will simply look something like:
 
-```
-
+```html
 p {
     color: red;
 }
