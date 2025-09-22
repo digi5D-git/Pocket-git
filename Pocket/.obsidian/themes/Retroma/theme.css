@@ -1,7 +1,7 @@
 /*
 
       Theme: Retroma
-    Version: v1.1.0
+    Version: v1.1.1
      Author: emarpiee
 Description: A tribute to the past with an eye toward the future.
 
@@ -376,6 +376,17 @@ body {
     inset -2px -2px oklch(from var(--background-secondary) 100% c h),
     inset 2px 2px oklch(from var(--background-secondary) 50% c h),
     inset -2px -2px oklch(from var(--background-secondary) 100% c h);
+  --box-shadow-sm:
+    inset -1px -1px oklch(from var(--background-secondary) 50% c h),
+    inset 1px 1px oklch(from var(--background-secondary) 100% c h),
+    inset -1px -1px oklch(from var(--background-secondary) 50% c h),
+    inset 1px 1px oklch(from var(--background-secondary) 100% c h);
+  --box-shadow-active-sm:
+    inset 1px 1px oklch(from var(--background-secondary) 50% c h),
+    inset -1px -1px oklch(from var(--background-secondary) 100% c h),
+    inset 1px 1px oklch(from var(--background-secondary) 50% c h),
+    inset -1px -1px oklch(from var(--background-secondary) 100% c h);
+
   --button-active: oklch(from var(--background-secondary) 85% c h);
   --bases-cards-background: oklch(from var(--background-tertiary) 85% c h);
   --text-highlight-bg: oklch(from var(--accent-1) 80% var(--chroma) h / 75%);
@@ -460,6 +471,17 @@ body {
     inset -2px -2px oklch(from var(--background-secondary) 50% c h),
     inset 2px 2px oklch(from var(--background-secondary) 50% c h),
     inset -2px -2px oklch(from var(--base-accent) 50% c h);
+  --box-shadow-sm:
+    inset -1px -1px oklch(from var(--background-secondary) 15% c h),
+    inset 1px 1px oklch(from var(--background-secondary) 50% c h),
+    inset -1px -1px oklch(from var(--background-secondary) 50% c h),
+    inset 1px 1px oklch(from var(--background-secondary) 50% c h);
+  --box-shadow-active-sm:
+    inset 1px 1px oklch(from var(--background-secondary) 15% c h),
+    inset -1px -1px oklch(from var(--background-secondary) 50% c h),
+    inset 1px 1px oklch(from var(--background-secondary) 50% c h),
+    inset -1px -1px oklch(from var(--base-accent) 50% c h);
+
   --button-active: oklch(from var(--background-secondary) 25% c h);
   --bases-cards-background: oklch(from var(--background-tertiary) 25% c h);
   --text-highlight-bg: oklch(from var(--accent-1) 50% var(--chroma) h / 75%);
@@ -484,6 +506,20 @@ body {
 /*=============================================
 =              MAIN UI & WORKSPACE            =
 =============================================*/
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px !important;
+  height: 10px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--background-primary) !important;
+  border: 1px solid var(--text-faint) !important;
+  box-shadow: var(--box-shadow-sm);
+  border-radius: var(--window-border-radius) !important;
+}
 
 /* --- Workspace panes and tabs --- */
 .workspace {
@@ -513,6 +549,7 @@ body {
 .backlink-pane,
 .outgoing-link-pane,
 .workspace-leaf-content[data-type="bases"] .view-content {
+  margin-top: var(--size-4-2);
   border-radius: var(--window-border-radius);
   border: var(--border-ridge);
   background-color: var(--background-paper);
@@ -592,18 +629,19 @@ body:not(.is-mobile)
 }
 
 /* --- Headers (Panes & Navigation) --- */
+
 .nav-header,
 .view-header {
-  margin-bottom: var(--size-4-2);
   align-content: center;
   background-color: var(--background-secondary);
-  border: var(--border-groove);
+  border: var(--border-groove) !important;
   border-radius: var(--window-border-radius);
 }
 
-body:not(.is-mobile) .view-header {
-  overflow: overlay;
-  scrollbar-width: none;
+/* Scrollable header */
+.view-header {
+  overflow: overlay !important;
+  scrollbar-width: none !important;
 }
 
 .is-focused .workspace-leaf.mod-active .view-header {
@@ -719,15 +757,20 @@ body:not(.is-mobile) .view-header {
   cursor: pointer !important;
 }
 
+.vertical-tab-nav-item:not(.settings-search-input) {
+  border-radius: var(--button-border-radius) !important;
+}
+
 button:not(.excalidraw button),
-.vertical-tab-nav-item:not(.settings-search-input),
 .text-icon-button,
 .clickable-icon,
 .metadata-add-button,
 .workspace-tab-header,
 .setting-item-control .clickable-icon,
 .setting-item-control button,
-.workspace-tab-header-inner .workspace-tab-header-inner-icon {
+.workspace-tab-header-inner .workspace-tab-header-inner-icon,
+.workspace-drawer-vault-switcher-icon {
+  color: var(--text-muted) !important;
   border-radius: var(--button-border-radius) !important;
 }
 
@@ -788,13 +831,12 @@ button.mod-warning {
   --text-color: unset;
 }
 
-/* --- Button Group Spacing --- */
+/* Button Group Spacing */
 .view-header-nav-buttons,
 .view-actions,
-.is-mobile .view-actions,
 .nav-buttons-container,
 .workspace-drawer-vault-actions {
-  gap: var(--size-2-3);
+  gap: var(--size-2-3) !important;
 }
 
 /* --- Inputs & Selects --- */
@@ -821,10 +863,6 @@ textarea {
 /*=============================================
 =                 FILE EXPLORER               =
 =============================================*/
-
-.nav-folder .tree-item-self.is-clickable {
-  /* padding-inline-start: 8px !important; */
-}
 
 .nav-files-container > div > .nav-folder {
   margin-block: 6px;
@@ -854,9 +892,9 @@ textarea {
 
 /* --- Custom Folder & File Icons --- */
 /* --- Hide Default Toggle Arrow --- */
-.nav-folder .tree-item-self .tree-item-icon {
-  /* display: none; */
-}
+/* .nav-folder .tree-item-self .tree-item-icon { */
+/* display: none; */
+/* } */
 
 /* --- Shared Properties for Custom Icons --- */
 .nav-folder-title .nav-folder-title-content::before {
@@ -1050,7 +1088,6 @@ a.tag:hover,
 
 .multi-select-pill {
   --pill-radius: var(--tag-radius);
-  height: 1.5em;
   gap: var(--size-4-1);
   line-height: unset;
 }
@@ -1120,11 +1157,15 @@ pre,
 
 .cm-s-obsidian .cm-inline-code:not(.cm-formatting),
 .markdown-rendered code:not(pre code),
-code:not(pre code) {
+code:not(pre code),
+.cm-s-obsidian .cm-templater-command.cm-templater-execution-tag,
+.cm-s-obsidian .templater-command-bg {
   padding-inline: 6px !important;
 }
 
-.cm-s-obsidian div.HyperMD-codeblock-bg {
+.cm-s-obsidian div.HyperMD-codeblock-bg,
+.cm-s-obsidian .cm-templater-command.cm-templater-execution-tag,
+.cm-s-obsidian .templater-command-bg {
   border: 1px solid oklch(from var(--text-normal) l c h / 10%);
 }
 
@@ -1201,6 +1242,10 @@ img {
   padding: var(--size-4-3);
 }
 
+.footnotes-view .footnote-list-item {
+  border: unset;
+}
+
 /*** Table  ***/
 
 table {
@@ -1273,7 +1318,7 @@ tr:last-child td:last-child {
 .menu,
 .is-mobile .prompt .is-phome .menu,
 .suggestion-container .mod-search-suggestion {
-  border: var(--border-ridge);
+  border: var(--border-ridge) !important;
   border-radius: var(--window-border-radius) !important;
   /* box-shadow: var(--shadow-l) !important; */
   box-shadow: 0 0 12px 2px oklch(from black l c h / 40%);
@@ -1656,6 +1701,18 @@ tr:last-child td:last-child {
   background-color: oklch(from var(--text-normal) l c h / 0%) !important;
 }
 
+.kanban-plugin__meta-value .kanban-plugin__markdown-preview-view > *:last-child,
+.kanban-plugin__markdown-preview-wrapper
+  .kanban-plugin__markdown-preview-view
+  > *:last-child {
+  margin-block-end: var(--size-4-2);
+}
+
+.kanban-plugin__lane-grip,
+.kanban-plugin__icon {
+  color: var(--text-muted);
+}
+
 /* Excalidraw */
 .excalidraw {
   border-radius: var(--window-border-radius);
@@ -1693,6 +1750,13 @@ tr:last-child td:last-child {
   background-color: var(--background-paper) !important;
 }
 
+/* Templater */
+.cm-s-obsidian .cm-templater-command.cm-templater-execution-tag,
+.cm-s-obsidian .templater-command-bg,
+.cm-s-obsidian .templater-inline .cm-templater-command {
+  background-color: var(--code-background);
+}
+
 /*=============================================
 =             RESPONSIVE & MOBILE             =
 =============================================*/
@@ -1727,8 +1791,7 @@ tr:last-child td:last-child {
 }
 
 .is-mobile .view-header {
-  height: unset !important;
-  border: var(--border-groove) !important;
+  height: 70px !important;
 }
 
 .is-mobile .nav-header {
@@ -1736,8 +1799,12 @@ tr:last-child td:last-child {
   padding-block: var(--size-4-2);
 }
 
-.is-mobile .view-header .view-action {
-  padding: 4px 6px;
+.is-mobile .view-header-title-container {
+  height: unset;
+}
+
+.is-mobile .view-actions {
+  padding: unset;
 }
 
 .is-mobile .mod-activated {

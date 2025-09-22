@@ -237,15 +237,14 @@
   "retroma-obsidian-theme@@img-border-radius": 5,
   "iridium@@i-card-radius": 10,
   "iridium@@i-border-radius": 11,
-  "iridium@@i-dk-s": 9,
-  "iridium@@i-dk-l": 12,
-  "iridium@@i-dk-text-l-multiplier": 1.2,
-  "iridium@@i-dk-l-multiplier": 0.75,
+  "iridium@@i-dk-s": 2,
+  "iridium@@i-dk-l": 15,
+  "iridium@@i-dk-text-l-multiplier": 1.05,
+  "iridium@@i-dk-l-multiplier": 1.15,
   "iridium@@i-dk-default-text-accent": true,
   "iridium@@i-dk-layout-s": true,
   "iridium@@i-dk-custom-layout-s": 87,
   "iridium@@i-dk-layout-l": true,
-  "iridium@@i-dk-custom-layout-l": 86,
   "iridium@@i-blockquote-indent": 0.25,
   "iridium@@i-transparent-blockquote-background": true,
   "iridium@@i-simple-callouts": true,
@@ -330,5 +329,6 @@
   "infobox-callouts@@ic-section-background-toggle": true,
   "cupertino@@tabs-autosize-off": true,
   "cupertino@@block-width-off": true,
-  "cupertino@@clean-link-off": true
+  "cupertino@@clean-link-off": true,
+  "iridium@@i-dk-border-l": 20
 }
