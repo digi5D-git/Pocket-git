@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "Data-Hub.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -272,8 +272,9 @@
   },
   "active": "3be1126213a758b1",
   "lastOpenFiles": [
-    "0. Data-Hub/1 Coding/Index-Coding.md",
+    "Intake/Design Index.md",
     "Data-Hub.md",
+    "0. Data-Hub/1 Coding/Index-Coding.md",
     "0. Data-Hub/5 SotM/Index-SotM.md",
     "0. Data-Hub/4 Science & Computing/Index-Sci&Comp.md",
     "0. Data-Hub/3 Command Line/Index-CommandLine.md",
@@ -308,7 +309,6 @@
     "Notes, Excel.md",
     "Slurped Pages/10 print.md",
     "Intake/Racket Programming Language.md",
-    "Intake/Luxon, JavaScript Date & Time Wrapper.md",
     "typeface anatomy.jpg",
     "digi5d.png",
     "AOR Map -Combatant Commands.png",
