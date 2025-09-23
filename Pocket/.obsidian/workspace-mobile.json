@@ -28,17 +28,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intake/Directory Layout.md",
-                "mode": "preview",
+                "file": "Data-Hub.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Directory Layout"
+              "title": "Data-Hub"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,7 +161,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Intake/Directory Layout.md",
+            "file": "Topic Navigation.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -255,8 +254,10 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "fb931198a1134d77",
+  "active": "97c7159ba2589c99",
   "lastOpenFiles": [
+    "Data-Hub.md",
+    "Intake/Directory Layout.md",
     "0. Data-Hub/1 Coding/5 Mobile",
     "0. Data-Hub/1 Coding/4 Game Dev",
     "0. Data-Hub/1 Coding/3 Standards",
@@ -267,9 +268,7 @@
     "0. Data-Hub/3 Command Line",
     "0. Data-Hub/2 Design",
     "0. Data-Hub/1 Coding",
-    "0. Data-Hub",
     "Hub.md",
-    "Intake/Directory Layout.md",
     "Topic Navigation.md",
     "Slurped Pages/A beginner's guide to JSON, the data format for the internet.md",
     "Anatomy of Typeface.jpg",
