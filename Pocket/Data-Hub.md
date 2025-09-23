@@ -94,3 +94,18 @@ const manager = new ButtonManager(dv.container);
 manager.createGrid(buttonData, 2);
 ```
 
+```dataviewjs
+// Configuration
+const buttonData = [
+    { name: "Coding", action: "[[Coding Index]]", color: "#4285f4", icon: "💻" },
+    { name: "Design", action: "[[Design Index]]", color: "#9c27b0", icon: "🎨" },
+    { name: "Terminal", action: "[[Command Line Index]]", color: "#4caf50", icon: "⚡" },
+    { name: "CompSci", action: "[[CompSci Index]]", color: "#f44336", icon: "🧠" },
+    { name: "Philosophy", action: "[[SotM Index]]", color: "#ff9800", icon: "🤔" },
+    { name: "Search", action: "global-search:open", type: "command", color: "#607d8b", icon: "🔍" }
+];
+
+// Create button manager and render grid
+const manager = new ButtonManager(dv.container);
+manager.createGrid(buttonData, 2);
+```
