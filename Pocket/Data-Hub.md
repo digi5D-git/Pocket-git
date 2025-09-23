@@ -33,6 +33,6 @@ customColor #555d50
 customTextColor #f4f5f4
 ```
 ^button-btn-cmdL
-</td></tr>
+</td></tr><tr>
 ^button-Btn-iCode
 
