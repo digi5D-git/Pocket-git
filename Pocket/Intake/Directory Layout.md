@@ -19,4 +19,8 @@ Data-Hub
 	-  Mobile
 	-  Game Dev
 -  Design
-	-  
+	-  CSS
+	-  HTML
+	-  Typography
+	-  UI_UX
+	-  Theory
