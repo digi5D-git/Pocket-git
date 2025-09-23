@@ -13,4 +13,7 @@ Data-Hub
 -  Coding
 	-  Language
 	-  Standards
+	-  Methodology
+	-  Web
+	-  Mobile
 	-  
