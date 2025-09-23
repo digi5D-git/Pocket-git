@@ -40,4 +40,5 @@ Data-Hub
 	-  Network & Security
 -  SotM
 	-  Logic
-	-  
+	-  Philosophy
+	- 
