@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "Data-Hub.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -272,8 +272,9 @@
   },
   "active": "3be1126213a758b1",
   "lastOpenFiles": [
-    "Templates/Scripts/ButtonManager.js",
+    "Intake/Coding Index.md",
     "Data-Hub.md",
+    "Templates/Scripts/ButtonManager.js",
     "Intake/Design Index.md",
     "0. Data-Hub/1 Coding/Index-Coding.md",
     "0. Data-Hub/5 SotM/Index-SotM.md",
@@ -291,7 +292,6 @@
     "0. Data-Hub/4 Science & Computing",
     "0. Data-Hub/3 Command Line",
     "0. Data-Hub/2 Design",
-    "0. Data-Hub/1 Coding",
     "Hub.md",
     "Slurped Pages/A beginner's guide to JSON, the data format for the internet.md",
     "Anatomy of Typeface.jpg",
