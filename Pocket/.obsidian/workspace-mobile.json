@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -177,7 +177,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Data-Hub.md",
+            "file": "0. Data-Hub/1 Coding/Index-Coding.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -270,10 +270,14 @@
       "cmdr:Button Maker": false
     }
   },
-  "active": "3be1126213a758b1",
+  "active": "496fc19aa9e53ff4",
   "lastOpenFiles": [
-    "0. Data-Hub/1 Coding/Index-Coding.md",
     "Data-Hub.md",
+    "0. Data-Hub/1 Coding/Index-Coding.md",
+    "0. Data-Hub/5 SotM/Index-SotM.md",
+    "0. Data-Hub/4 Science & Computing/Index-Sci&Comp.md",
+    "0. Data-Hub/3 Command Line/Index-CommandLine.md",
+    "0. Data-Hub/2 Design/Index-Design.md",
     "Topic Navigation.md",
     "Intake/Directory Layout.md",
     "0. Data-Hub/1 Coding/5 Mobile",
@@ -305,10 +309,6 @@
     "Slurped Pages/10 print.md",
     "Intake/Racket Programming Language.md",
     "Intake/Luxon, JavaScript Date & Time Wrapper.md",
-    "Intake/JavaScript Libraries.md",
-    "Slurped Pages/Applying CSS - HTML Dog.md",
-    "Slurped Pages/Borders - HTML Dog.md",
-    "Slurped Pages/Composition in CSS - CSS-Tricks.md",
     "typeface anatomy.jpg",
     "digi5d.png",
     "AOR Map -Combatant Commands.png",
