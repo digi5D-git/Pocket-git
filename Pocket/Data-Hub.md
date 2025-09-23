@@ -24,5 +24,7 @@ customColor #ed872d
 customTextColor #121212
 ```
 ^button-btn-iDsgn
+</td><td style="width: 50%; padding: 5px;">
+
 ^button-Btn-iCode
 
