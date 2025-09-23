@@ -5,7 +5,9 @@ file: Data-Hub
 aliases: Data-Hub
 key: Data-Hub
 ---
-
+<table style="width: 100%">
+<tr>
+<td style="width: 50%; padding: 5px;">
 ```button
 name CODING
 type link
