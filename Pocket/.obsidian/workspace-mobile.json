@@ -252,11 +252,6 @@
       "markdown-importer:Open format converter": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "quickadd:QuickAdd": false,
-      "cmdr:Open settings": false,
-      "cmdr:Open another vault": false,
-      "cmdr:Slurp Page": false,
-      "cmdr:Ace Code Editor: Open CSS snippet manager": false,
-      "cmdr:Snippets Manager: Search Snippets": false,
       "quicklink:Auto link scan": false,
       "ace-code-editor:Open CSS snippet manager": false,
       "omnisearch:Omnisearch": false,
@@ -267,14 +262,19 @@
       "net-clip:NetClip": false,
       "tag-index:Open tag index": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "cmdr:Open settings": false,
+      "cmdr:Open another vault": false,
+      "cmdr:Slurp Page": false,
+      "cmdr:Ace Code Editor: Open CSS snippet manager": false,
+      "cmdr:Button Maker": false
     }
   },
   "active": "3be1126213a758b1",
   "lastOpenFiles": [
     "0. Data-Hub/1 Coding/Index-Coding.md",
-    "Topic Navigation.md",
     "Data-Hub.md",
+    "Topic Navigation.md",
     "Intake/Directory Layout.md",
     "0. Data-Hub/1 Coding/5 Mobile",
     "0. Data-Hub/1 Coding/4 Game Dev",
