@@ -38,9 +38,9 @@
       "mode": "any"
     },
     {
-      "id": "snippets-manager:open-snippet-search",
-      "icon": "lucide-code-2",
-      "name": "Snippets Manager: Search Snippets",
+      "id": "buttons:button-maker",
+      "icon": "lucide-command",
+      "name": "Button Maker",
       "mode": "any"
     }
   ],

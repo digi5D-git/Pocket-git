@@ -10,9 +10,9 @@
   "newFileFolderPath": "Intake",
   "mobilePullAction": "editor:save-file",
   "mobileToolbarCommands": [
+    "buttons:button-maker",
     "file-explorer:move-file",
     "bases:insert",
-    "keyboard-formatter:format-keyboard-text",
     "editor:undo",
     "editor:redo",
     "editor:insert-footnote",
