@@ -24,3 +24,6 @@ Data-Hub
 	-  Typography
 	-  UI_UX
 	-  Theory
+	-  Concepts
+-  Command Line
+	-  
