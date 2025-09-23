@@ -38,4 +38,6 @@ Data-Hub
 	-  Systems & Architecture
 	-  Theory
 	-  Network & Security
--  
+-  SotM
+	-  Logic
+	-  
