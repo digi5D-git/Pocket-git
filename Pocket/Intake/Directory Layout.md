@@ -31,4 +31,8 @@ Data-Hub
 	-  Terminals & Consoles
 	-  Regex
 	-  Tools
-- 
+-  CompSci
+	-  Algorithms
+	-  Data Science
+	-  Mathematics
+	-  
