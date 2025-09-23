@@ -25,6 +25,13 @@ customTextColor #121212
 ```
 ^button-btn-iDsgn
 </td><td style="width: 50%; padding: 5px;">
-
+```button
+name CMD LINE
+type link
+action obsidian://open?vault=Pocket&file=0.%20Data-Hub%2F3%20Command%20Line%2FIndex-CommandLine
+customColor #555d50
+customTextColor #f4f5f4
+```
+^button-btn-cmdL
 ^button-Btn-iCode
 
