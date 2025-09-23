@@ -37,7 +37,8 @@
               "title": "Data-Hub"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,7 +162,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Topic Navigation.md",
+            "file": "Data-Hub.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -254,8 +255,9 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "97c7159ba2589c99",
+  "active": "3be1126213a758b1",
   "lastOpenFiles": [
+    "Topic Navigation.md",
     "Data-Hub.md",
     "Intake/Directory Layout.md",
     "0. Data-Hub/1 Coding/5 Mobile",
@@ -269,7 +271,6 @@
     "0. Data-Hub/2 Design",
     "0. Data-Hub/1 Coding",
     "Hub.md",
-    "Topic Navigation.md",
     "Slurped Pages/A beginner's guide to JSON, the data format for the internet.md",
     "Anatomy of Typeface.jpg",
     "Slurped Pages/An Introduction to Racket with Pictures.md",
