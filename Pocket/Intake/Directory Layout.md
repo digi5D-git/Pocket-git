@@ -35,5 +35,5 @@ Data-Hub
 	-  Algorithms
 	-  Data Science
 	-  Mathematics
-	-  Systems
-	-  
+	-  Systems & Architecture
+	-  Theory
