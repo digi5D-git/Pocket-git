@@ -28,4 +28,5 @@ Data-Hub
 -  Command Line
 	-  CLI
 	-  Scripting
-	-  
+	-  Terminals & Consoles
+	-  Regex
