@@ -5,6 +5,7 @@ file: Data-Hub
 aliases: Data-Hub
 key: Data-Hub
 ---
+
 ```button
 name CODING
 type link

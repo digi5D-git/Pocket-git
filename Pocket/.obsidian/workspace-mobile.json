@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "Data-Hub.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,7 +177,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "0. Data-Hub/1 Coding/Index-Coding.md",
+            "file": "Data-Hub.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -270,10 +270,10 @@
       "cmdr:Button Maker": false
     }
   },
-  "active": "496fc19aa9e53ff4",
+  "active": "3be1126213a758b1",
   "lastOpenFiles": [
-    "Data-Hub.md",
     "0. Data-Hub/1 Coding/Index-Coding.md",
+    "Data-Hub.md",
     "0. Data-Hub/5 SotM/Index-SotM.md",
     "0. Data-Hub/4 Science & Computing/Index-Sci&Comp.md",
     "0. Data-Hub/3 Command Line/Index-CommandLine.md",
