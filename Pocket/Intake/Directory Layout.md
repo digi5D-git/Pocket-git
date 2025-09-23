@@ -26,4 +26,6 @@ Data-Hub
 	-  Theory
 	-  Concepts
 -  Command Line
+	-  CLI
+	-  Scripting
 	-  
