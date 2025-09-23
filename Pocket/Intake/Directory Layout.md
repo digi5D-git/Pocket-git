@@ -41,4 +41,5 @@ Data-Hub
 -  SotM
 	-  Logic
 	-  Philosophy
-	- 
+	-  Metaphysics
+	-  Theory
