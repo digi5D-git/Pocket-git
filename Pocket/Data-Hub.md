@@ -34,6 +34,15 @@ customTextColor #f4f5f4
 ```
 ^button-btn-cmdL
 </td></tr><tr><td style="width: 50%; padding: 5px;">
+```button
+name Sci & Comp
+type link
+action obsidian://open?vault=Pocket&file=0.%20Data-Hub%2F4%20Science%20%26%20Computing%2FIndex-Sci%26Comp
+customColor #03c03c
+customTextColor #333333
+```
+^button-btn-sciC
+</td><td style="width: 50%; padding: 5px;">
 
 ^button-Btn-iCode
 
