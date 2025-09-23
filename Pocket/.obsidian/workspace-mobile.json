@@ -257,8 +257,9 @@
   },
   "active": "3be1126213a758b1",
   "lastOpenFiles": [
-    "Topic Navigation.md",
+    "Hub.md",
     "Intake/Directory Layout.md",
+    "Topic Navigation.md",
     "Slurped Pages/A beginner's guide to JSON, the data format for the internet.md",
     "Anatomy of Typeface.jpg",
     "Slurped Pages/An Introduction to Racket with Pictures.md",
@@ -285,7 +286,6 @@
     "Slurped Pages/Composition in CSS - CSS-Tricks.md",
     "Ref_Sheets/The Ultimate Guide to Termux Commands.md",
     "obsidian_css_customization.md",
-    "text_en.md",
     "Templates/Scripts/generateCodePlaceholder.js",
     "Templates/Scripts/getCodeBlockPurpose.js",
     "Templates/Scripts/getLanguagesByCategory.js",
