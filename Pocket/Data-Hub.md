@@ -94,6 +94,7 @@ const manager = new ButtonManager(dv.container);
 manager.createGrid(buttonData, 2);
 ```
 
+```
 class ButtonManager {
     constructor(container) {
         this.container = container;
@@ -239,3 +240,4 @@ const buttonData = [
 // Render grid
 const manager = new ButtonManager(dv.container);
 manager.createGrid(buttonData, 2);
+```
