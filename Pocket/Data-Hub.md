@@ -16,6 +16,13 @@ customColor #ffffa3
 customTextColor #333333
 ```
 </td><td style="width: 50%; padding: 5px;">
-
+```button
+name DESIGN
+type link
+action obsidian://open?vault=Pocket&file=0.%20Data-Hub%2F2%20Design%2FIndex-Design
+customColor #ed872d
+customTextColor #121212
+```
+^button-btn-iDsgn
 ^button-Btn-iCode
 
