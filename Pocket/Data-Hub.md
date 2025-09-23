@@ -43,6 +43,13 @@ customTextColor #333333
 ```
 ^button-btn-sciC
 </td><td style="width: 50%; padding: 5px;">
-
+```button
+name SotM
+type link
+action obsidian://open?vault=Pocket&file=0.%20Data-Hub%2F5%20SotM%2FIndex-SotM
+customColor #e30022
+customTextColor #f8f8ff
+```
+^button-btn-sotm
 ^button-Btn-iCode
 
