@@ -48,7 +48,6 @@ class ButtonManager {
             overflow: hidden;
         `;
         
-        // Subtle custom color overlay (12% opacity to blend with #212121)
         if (color !== "var(--interactive-accent)") {
             btn.style.background = `
                 linear-gradient(135deg, 
@@ -58,7 +57,6 @@ class ButtonManager {
             `;
         }
         
-        // Hover: Lift with Iridium's hover highlight
         btn.addEventListener("mouseenter", () => {
             btn.style.transform = "translateY(-0.5px)";
             btn.style.boxShadow = `
@@ -76,7 +74,6 @@ class ButtonManager {
             }
         });
         
-        // Leave: Reset to base state
         btn.addEventListener("mouseleave", () => {
             btn.style.transform = "translateY(0)";
             btn.style.boxShadow = `
@@ -94,7 +91,6 @@ class ButtonManager {
             }
         });
         
-        // Click: Pressed effect with inset shadow
         btn.addEventListener("click", () => {
             btn.style.transform = "translateY(0.5px)";
             btn.style.boxShadow = `
@@ -129,3 +125,6 @@ class ButtonManager {
         }
     }
 }
+
+// Export for CommonJS compliance
+module.exports = ButtonManager;
