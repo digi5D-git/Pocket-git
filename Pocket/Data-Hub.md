@@ -23,7 +23,7 @@ class ButtonManager {
             background: var(--background-secondary); /* #1a1a1a */
             border-radius: 8px;
             margin: 10px 0;
-            border: 1px solid var(--background-modifier-border); /* #424242 */
+            border:0 /* 1px solid var(--background-modifier-border);*/ /* #424242 */
             box-shadow: 0 1px 3px var(--shadow); /* Subtle Iridium shadow */
             position: relative;
             z-index: 1; /* Ensure visibility */
