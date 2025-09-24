@@ -10,4 +10,4 @@ key: Links for Follow-up
 ## Google Search Hack
 
 **Search Database for Resources**
-	`-inurl:htm -inurl:htm`
+	`-inurl:htm -inurl:html intitle`
