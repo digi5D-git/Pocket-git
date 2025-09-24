@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Data-Hub/Links for Follow-up.md",
+                "file": "0. Data-Hub/Links & Info for Follow-up.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Links for Follow-up"
+              "title": "Links & Info for Follow-up"
             }
           },
           {
@@ -177,7 +177,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "0. Data-Hub/Links for Follow-up.md",
+            "file": "0. Data-Hub/Links & Info for Follow-up.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -283,7 +283,7 @@
   "active": "3be1126213a758b1",
   "lastOpenFiles": [
     "IceDrive.md",
-    "0. Data-Hub/Links for Follow-up.md",
+    "0. Data-Hub/Links & Info for Follow-up.md",
     "Data-Hub.md",
     "Hub.md",
     "NetClip/Design/CSS Typed Arithmetic _ CSS-Tricks.md",
