@@ -9,4 +9,5 @@ key: Links for Follow-up
 
 ## Google Search Hack
 
-**
+**Search Database for Resources**
+	``
