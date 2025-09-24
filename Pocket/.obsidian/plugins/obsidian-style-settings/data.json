@@ -330,5 +330,12 @@
   "cupertino@@tabs-autosize-off": true,
   "cupertino@@block-width-off": true,
   "cupertino@@clean-link-off": true,
-  "iridium@@i-dk-border-l": 20
+  "iridium@@i-dk-border-l": 20,
+  "things-style@@floating-button-off": true,
+  "things-style@@active-line": true,
+  "things-style@@fancy-code": true,
+  "things-style@@fancy-highlight": true,
+  "things-style@@link-decoration": "None",
+  "things-style@@default-font-color": true,
+  "things-style@@progress-color": true
 }
