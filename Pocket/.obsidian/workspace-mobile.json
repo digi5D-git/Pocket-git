@@ -38,6 +38,16 @@
             }
           },
           {
+            "id": "cd5a1cbd6e9db853",
+            "type": "leaf",
+            "state": {
+              "type": "netClip_workspace_webview",
+              "state": {},
+              "icon": "globe",
+              "title": "Web View"
+            }
+          },
+          {
             "id": "496fc19aa9e53ff4",
             "type": "leaf",
             "state": {
@@ -53,7 +63,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -237,9 +247,19 @@
           "icon": "spreadsheet",
           "title": "Advanced Tables"
         }
+      },
+      {
+        "id": "341f826f22e69465",
+        "type": "leaf",
+        "state": {
+          "type": "clipper-view",
+          "state": {},
+          "icon": "newspaper",
+          "title": "Clipper View"
+        }
       }
     ],
-    "currentTab": 7
+    "currentTab": 8
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,8 +290,9 @@
       "cmdr:Button Maker": false
     }
   },
-  "active": "3be1126213a758b1",
+  "active": "cd5a1cbd6e9db853",
   "lastOpenFiles": [
+    "NetClip/Design/CSS Typed Arithmetic _ CSS-Tricks.md",
     "Intake/CompSci Index.md",
     "Data-Hub.md",
     "Intake/Coding Index.md",
@@ -308,7 +329,6 @@
     "Termux-Command-Handbook/Package Update.md",
     "Intake/Home, Coordinates.md",
     "Slurped Pages/The TC39 Process.md",
-    "Notes, Excel.md",
     "typeface anatomy.jpg",
     "digi5d.png",
     "AOR Map -Combatant Commands.png",
