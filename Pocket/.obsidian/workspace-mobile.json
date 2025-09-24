@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IceDrive.md",
-                "mode": "preview",
+                "file": "0. Data-Hub/Links for Follow-up.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "IceDrive"
+              "title": "Links for Follow-up"
             }
           },
           {
@@ -177,7 +177,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "IceDrive.md",
+            "file": "0. Data-Hub/Links for Follow-up.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -282,6 +282,8 @@
   },
   "active": "3be1126213a758b1",
   "lastOpenFiles": [
+    "IceDrive.md",
+    "0. Data-Hub/Links for Follow-up.md",
     "Data-Hub.md",
     "Hub.md",
     "NetClip/Design/CSS Typed Arithmetic _ CSS-Tricks.md",
@@ -317,8 +319,6 @@
     "Slurped Pages/Accidentally Turing-Complete.md",
     "Intake/Racket Programming, Links.md",
     "Termux-Command-Handbook/Package Update.md",
-    "Intake/Home, Coordinates.md",
-    "Slurped Pages/The TC39 Process.md",
     "typeface anatomy.jpg",
     "digi5d.png",
     "AOR Map -Combatant Commands.png",
