@@ -5,7 +5,6 @@
   "textFontFamily": "Google Sans",
   "monospaceFontFamily": "DroidSansM Nerd Font Mono",
   "enabledCssSnippets": [
-    "Math Callouts",
     "ModularCSS - Wide Views",
     "Floating Status Bar - AnuP",
     "Multicolumns",
