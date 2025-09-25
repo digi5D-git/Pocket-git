@@ -32,15 +32,15 @@
       "color": "#a6a80f"
     },
     {
-      "id": "ace-code-editor:openCssSnippet",
-      "icon": "lucide-cassette-tape",
-      "name": "Ace Code Editor: Open CSS snippet manager",
-      "mode": "any"
-    },
-    {
       "id": "buttons:button-maker",
       "icon": "lucide-command",
       "name": "Button Maker",
+      "mode": "any"
+    },
+    {
+      "id": "net-clip:open-clipper",
+      "icon": "lucide-notepad-text",
+      "name": "NetClip",
       "mode": "any"
     }
   ],
