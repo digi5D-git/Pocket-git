@@ -52,8 +52,7 @@
               "title": "Index-Coding"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,7 +176,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "0. Data-Hub/Links & Info for Follow-up.md",
+            "file": "Topic Navigation.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -280,10 +279,10 @@
       "cmdr:Button Maker": false
     }
   },
-  "active": "3be1126213a758b1",
+  "active": "97c7159ba2589c99",
   "lastOpenFiles": [
-    "IceDrive.md",
     "0. Data-Hub/Links & Info for Follow-up.md",
+    "IceDrive.md",
     "Data-Hub.md",
     "Hub.md",
     "NetClip/Design/CSS Typed Arithmetic _ CSS-Tricks.md",
