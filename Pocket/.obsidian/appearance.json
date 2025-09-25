@@ -11,7 +11,8 @@
     "List Panels",
     "Minimal Theme cards",
     "font-hyperlegible",
-    "Background for Kanban"
+    "Background for Kanban",
+    "callout_primary"
   ],
   "theme": "obsidian",
   "baseFontSize": 14
