@@ -343,5 +343,6 @@
   "shimmering-focus@@highlight-hue-1": 50,
   "obsidian-prism-theme@@accent-style-dt": "pt-accent-style-filled-dt",
   "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-orange-dt",
-  "sanctum@@nav-folder-indicators": true
+  "sanctum@@nav-folder-indicators": true,
+  "maple-editor@@setting-editor-bg@@dark": "#4E5041"
 }
