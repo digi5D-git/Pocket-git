@@ -337,5 +337,8 @@
   "things-style@@fancy-highlight": true,
   "things-style@@link-decoration": "None",
   "things-style@@default-font-color": true,
-  "things-style@@progress-color": true
+  "things-style@@progress-color": true,
+  "shimmering-focus@@notices-at-bottom-right": true,
+  "shimmering-focus@@alt-colorschemes": "colorscheme-grubox",
+  "shimmering-focus@@highlight-hue-1": 50
 }
