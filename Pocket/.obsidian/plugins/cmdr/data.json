@@ -66,6 +66,12 @@
       "icon": "lucide-settings",
       "name": "Open settings",
       "mode": "any"
+    },
+    {
+      "id": "net-clip:open-clipper",
+      "icon": "lucide-scissors",
+      "name": "NetClip",
+      "mode": "any"
     }
   ],
   "macros": [],
