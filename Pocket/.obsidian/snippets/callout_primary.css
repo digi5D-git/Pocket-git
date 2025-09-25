@@ -3,7 +3,7 @@
   background: var(--layer-1);
   border: 1.5px solid var(--background-modifier-border);
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(20, 20, 40, 0.08);
+  box-shadow: 0 4px 16px rgba(30, 32, 40, 0.14), 0 1.5px 6px rgba(30, 32, 40, 0.07) !important;
   color: var(--text-normal);
   margin: 1em 0;
 }
