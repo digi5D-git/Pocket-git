@@ -12,7 +12,8 @@
     "Minimal Theme cards",
     "font-hyperlegible",
     "Background for Kanban",
-    "extnd_colors"
+    "extnd_colors",
+    "folder_color"
   ],
   "theme": "obsidian",
   "baseFontSize": 14
