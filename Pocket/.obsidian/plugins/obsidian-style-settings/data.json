@@ -345,6 +345,6 @@
   "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-orange-dt",
   "sanctum@@nav-folder-indicators": true,
   "maple-editor@@setting-editor-bg@@dark": "#4E5041",
-  "arzaba-theme-settings@@arzaba-sub-theme": "arzaba-retro",
-  "arzaba-theme-settings@@arzaba-font-override": true
+  "arzaba-theme-settings@@arzaba-sub-theme": "arzaba-black-and-white",
+  "arzaba-theme-settings@@arzaba-font-override": false
 }

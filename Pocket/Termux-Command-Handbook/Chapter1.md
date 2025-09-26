@@ -1,17 +1,17 @@
 ---
+subset:
 cssclass:
-cat:
 tags:
 icon:
-"uID:": Chapter1
-"generated:": 250920 // 12.14
-"mod:": 250920 // 12.16
-generated:: 250920 // 12.14
-mod:: 250920 // 12.18
+file: Chapter1
+aliases: Chapter1
+key: Chapter1
 ---
 
 ### Chapter 1: Basic Commands
+
 ___
+
 #### Part 1:
 
 1. **pkg update**: This command updates the package lists for upgrades and installs.
