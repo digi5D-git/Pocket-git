@@ -81,5 +81,5 @@ key: Heliboard
 ---
 
 Flex colors:
--  8 7 7 - 
+-  8 7 7 - crust
 -  
