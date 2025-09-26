@@ -177,7 +177,7 @@
       "list-style": "consistent"
     },
     "compact-yaml": {
-      "enabled": true,
+      "enabled": false,
       "inner-new-lines": true
     },
     "consecutive-blank-lines": {
@@ -290,7 +290,13 @@
   ],
   "linterLocale": "system-default",
   "logLevel": "ERROR",
-  "lintCommands": [],
+  "lintCommands": [
+    {
+      "id": "",
+      "name": "",
+      "enabled": true
+    }
+  ],
   "customRegexes": [],
   "commonStyles": {
     "aliasArrayStyle": "single string comma delimited",
