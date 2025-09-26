@@ -346,5 +346,7 @@
   "sanctum@@nav-folder-indicators": true,
   "maple-editor@@setting-editor-bg@@dark": "#4E5041",
   "arzaba-theme-settings@@arzaba-sub-theme": "arzaba-black-and-white",
-  "arzaba-theme-settings@@arzaba-font-override": false
+  "arzaba-theme-settings@@arzaba-font-override": false,
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha",
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-yellow"
 }
