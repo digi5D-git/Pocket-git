@@ -82,4 +82,6 @@ key: Heliboard
 
 Flex colors:
 -  8 7 7 - crust
--  16 15 15 - 
+-  16 15 15 - mantle
+-  28 27 26 - base
+-  
