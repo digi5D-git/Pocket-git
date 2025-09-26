@@ -5,6 +5,8 @@ file: Heliboard
 aliases: Heliboard
 key: Heliboard
 ---
+```
+
 { "label": "⌘|!code/-213", "type": "space", "popup": { "relevant": [
 
       { "label": "!autoColumnOrder!4" },
@@ -24,3 +26,29 @@ key: Heliboard
       { "label": ">[!" },
 
       { "label": "[]" } ] } },
+```
+
+---
+```
+{ "label": ",", "type": "normal", "popup": { "relevant": [
+
+      { "label": "!autoColumnOrder!3" },
+
+      { "label": "dT|digi5d@tuta.io" },
+
+      { "label": "dD|digi5D@disroot.org" },
+
+      { "label": "∑" },
+
+      { "label": "≉" },
+
+      { "label": "≤" },
+
+      { "label": "≥" },
+
+      { "label": "︱" },
+
+      { "label": "π" } ] } },
+```
+
+---
