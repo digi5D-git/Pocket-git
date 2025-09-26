@@ -91,6 +91,6 @@ Flex colors:
 -  123 122 116 - ovly1
 -  136 134 129 - ovly2
 -  158 146 148 - subT0
--  179 177 168 - subT1 
+-  179 177 168 - subT1 #b3b1a8 | #a8
 -  207 206 196 - txt #cfcec4
 -  249 226 175 - ylw #f6e2af
