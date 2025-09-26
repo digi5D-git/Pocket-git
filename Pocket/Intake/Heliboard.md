@@ -52,3 +52,28 @@ key: Heliboard
 ```
 
 ---
+```
+{ "label": "<>", "type": "space", "popup": { "relevant": [
+
+      { "label": "!autoColumnOrder!5" },
+
+      { "label": "/*" },
+
+      { "label": "*/" },
+
+      { "label": "<div>" },
+
+      { "label": "</div>" },
+
+      { "label": "<span>" },
+
+      { "label": "</span>" },
+
+      { "label": "</" },
+
+      { "label": "()" },
+
+      { "label": "{}" },
+
+      { "label": "[]" } ] } },
+```
