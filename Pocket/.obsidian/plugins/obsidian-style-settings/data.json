@@ -408,9 +408,9 @@
   "anuppuccin-theme-settings@@anp-card-layout-filebrowser": true,
   "anuppuccin-theme-settings@@anp-rainbow-file-toggle": true,
   "anuppuccin-theme-settings@@anp-rainbow-folder-bg-opacity": 0.3,
-  "future-theme@@accent-color-options": "accent-red",
+  "future-theme@@accent-color-options": "accent-purple",
   "future-theme@@gradient-bg": true,
-  "future-theme@@custom-transparency": true,
+  "future-theme@@custom-transparency": false,
   "future-theme@@page-transparency-custom": 0.7,
-  "future-theme@@heading-style": "headings-bland"
+  "future-theme@@heading-style": "headings-default"
 }
