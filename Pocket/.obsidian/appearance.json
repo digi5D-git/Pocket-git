@@ -1,5 +1,5 @@
 {
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Spy Terminal",
   "accentColor": "#b8a037",
   "interfaceFontFamily": "Helvetica Neue",
   "textFontFamily": "Google Sans",
@@ -12,7 +12,6 @@
     "Minimal Theme cards",
     "font-hyperlegible",
     "Background for Kanban",
-    "extnd_colors",
     "folder_color"
   ],
   "theme": "obsidian",
