@@ -82,8 +82,7 @@
               "title": "Index-Coding"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,7 +206,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Intake/Heliboard.md",
+            "file": "IceDrive.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -310,9 +309,10 @@
       "cmdr:NetClip": false
     }
   },
-  "active": "7b0f44c810cd2f31",
+  "active": "97c7159ba2589c99",
   "lastOpenFiles": [
     "Intake/Cblock+Callout.md",
+    "IceDrive.md",
     "Intake/Heliboard.md",
     "Termux-Command-Handbook/Chapter1.md",
     "NetClip/The Coyier CSS Starter – Frontend Masters Blog.md",
@@ -327,7 +327,6 @@
     "Idex.md",
     "Hub.md",
     "ExTyp_stylesettings.json",
-    "IceDrive.md",
     "Topic Navigation.md",
     "0. Data-Hub/Links & Info for Follow-up.md",
     "Data-Hub.md",

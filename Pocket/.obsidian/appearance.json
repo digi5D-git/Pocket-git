@@ -1,6 +1,6 @@
 {
-  "cssTheme": "Spy Terminal",
-  "accentColor": "#b8a037",
+  "cssTheme": "Future",
+  "accentColor": "#8f7833",
   "interfaceFontFamily": "Helvetica Neue",
   "textFontFamily": "Google Sans",
   "monospaceFontFamily": "DroidSansM Nerd Font Mono",
@@ -12,7 +12,7 @@
     "Minimal Theme cards",
     "font-hyperlegible",
     "Background for Kanban",
-    "folder_color"
+    "Tables, Rounded Corners"
   ],
   "theme": "obsidian",
   "baseFontSize": 14
