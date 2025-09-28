@@ -38,6 +38,21 @@
             }
           },
           {
+            "id": "22a34e5076a8bac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intake/Amazon.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Amazon"
+            }
+          },
+          {
             "id": "7b0f44c810cd2f31",
             "type": "leaf",
             "state": {
@@ -83,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -207,7 +222,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "IceDrive.md",
+            "file": "Intake/Amazon.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -310,8 +325,11 @@
       "cmdr:NetClip": false
     }
   },
-  "active": "108f25c82abc6142",
+  "active": "22a34e5076a8bac2",
   "lastOpenFiles": [
+    "IceDrive.md",
+    "Intake/Amazon.md",
+    "Untitled",
     "Intake/Cblock+Callout.md",
     "meta_bind_guide.md",
     "-- JSON Book.md",
@@ -319,7 +337,6 @@
     "Intake/Home, Coordinates.md",
     "Data-Hub.md",
     "Theme Primary, Specifics.md",
-    "IceDrive.md",
     "Intake/Heliboard.md",
     "Termux-Command-Handbook/Chapter1.md",
     "NetClip/The Coyier CSS Starter – Frontend Masters Blog.md",
@@ -338,7 +355,6 @@
     "0. Data-Hub/Links & Info for Follow-up.md",
     "NetClip/Design/CSS Typed Arithmetic _ CSS-Tricks.md",
     "Intake/CompSci Index.md",
-    "Intake/Coding Index.md",
     "Templates/Scripts/ButtonManager.js",
     "0. Data-Hub/1 Coding/5 Mobile",
     "0. Data-Hub/1 Coding/4 Game Dev",
@@ -347,7 +363,6 @@
     "0. Data-Hub/1 Coding/1 Languages",
     "0. Data-Hub/5 SotM",
     "0. Data-Hub/4 Science & Computing",
-    "0. Data-Hub/3 Command Line",
     "Anatomy of Typeface.jpg",
     "typeface anatomy.jpg",
     "digi5d.png",
