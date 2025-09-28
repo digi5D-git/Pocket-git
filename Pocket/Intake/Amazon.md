@@ -5,4 +5,4 @@ file: Amazon
 aliases: Amazon
 key: Amazon
 ---
-Email  s.mith
+Email  s.mithjunior.252
