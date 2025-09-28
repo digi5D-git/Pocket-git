@@ -5,4 +5,6 @@ file: Prime_Paramount+ - UmiZoomi show
 aliases: Prime_Paramount+ - UmiZoomi show
 key: Prime_Paramount+ - UmiZoomi show
 ---
-Filed feedback through
+Filed feedback through [Paramount+ Help Center](support.paramountplus.com/s/contactsupport)
+
+	Case #: 
