@@ -210,7 +210,7 @@
   "V1-Willemstad-Editor@@width-vll": "725px",
   "V1-Willemstad-Editor@@file-margins": 20,
   "cupertino@@full-width-off": true,
-  "baseline-style@@color-scheme-dark": "things-dark",
+  "baseline-style@@color-scheme-dark": "admin-dark",
   "baseline-style@@background-contrast-dark": "contrast-dark",
   "baseline-style@@anim-motion-baseline": "cubic-bezier(0.32, 0.72, 0, 1)",
   "baseline-style@@tabs-style": "tabs-floating",
@@ -440,7 +440,9 @@
   "baseline-style@@active-line-color": "active-line-color-accent",
   "baseline-style@@nav-item-size": "11px",
   "baseline-style@@nav-indentation-guide-color": "var(--color-accent)",
-  "baseline-style@@h1-variant": "all-small-caps",
+  "baseline-style@@h1-variant": "normal",
   "baseline-style@@h1-l": true,
-  "iridium@@i-dk-layout-l": 8
+  "iridium@@i-dk-layout-l": 8,
+  "baseline-style@@font-interface-override": "sans-serif",
+  "primary-theme@@ribbon-icon": 12
 }
