@@ -190,9 +190,19 @@
           "icon": "lucide-bookmark",
           "title": "Bookmarks"
         }
+      },
+      {
+        "id": "4ce302452df11122",
+        "type": "leaf",
+        "state": {
+          "type": "notebook-navigator",
+          "state": {},
+          "icon": "notebook",
+          "title": "Notebook Navigator"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 5
   },
   "right": {
     "id": "64b8f46be6615f3a",
@@ -337,10 +347,11 @@
       "cmdr:Open another vault": false,
       "cmdr:Slurp Page": false,
       "cmdr:Button Maker": false,
-      "cmdr:NetClip": false
+      "cmdr:NetClip": false,
+      "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "d33c13dbc9221ebd",
+  "active": "4ce302452df11122",
   "lastOpenFiles": [
     "Intake/Amazon.md",
     "Intake/Prime_Paramount+ - UmiZoomi show.md",
