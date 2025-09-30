@@ -39,7 +39,9 @@
   "showUntagged": false,
   "showUntaggedInFavorites": false,
   "favoriteTags": [],
-  "hiddenTags": [],
+  "hiddenTags": [
+    "0f1010"
+  ],
   "defaultFolderSort": "title-asc",
   "multiSelectModifier": "cmdCtrl",
   "groupByDate": false,
