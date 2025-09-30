@@ -1,0 +1,146 @@
+/* Obsidian Variables */
+body {
+    /* Bigger headers */
+    --h1-size: calc(var(--font-text-size) * 2);
+    --h2-size: calc(var(--font-text-size) * 1.6);
+    --h3-size: calc(var(--font-text-size) * 1.4);
+    --h4-size: calc(var(--font-text-size) * 1.2);
+    --h5-size: calc(var(--font-text-size) * 1.1);
+    --h6-size: calc(var(--font-text-size) * 1);
+    
+    /* Taller lines */
+    --h1-line-height: 2;
+    --h2-line-height: 1.9;
+    --h3-line-height: 1.8;
+    --h4-line-height: 1.7;
+    --h5-line-height: 1.7;
+    --h6-line-height: 1.7;
+    --line-height-normal: 1.7;
+    
+    /* Link style */
+    --link-decoration: underline;
+    --link-unresolved-decoration-color: var(--text-muted);
+    --link-external-decoration-color: var(--text-muted);
+    
+    /* Colors */
+    --workspace-background-translucent: rgba(var(--mono-rgb-0), 0.6);
+    --checkbox-marker-color: var(--background-secondary);
+    --modal-background: var(--background-secondary);
+    --divider-color: transparent;
+}
+
+/* Basic Theme Colours */
+.theme-light {
+    --background-primary: #f7f7f7;
+    --background-secondary: #fcfcfc;
+    --text-normal: #1a1a1a;
+    --text-muted: #b5b3b1;
+}
+
+.theme-dark {
+    --background-primary: transparent;
+    --background-secondary: #141414;
+    --text-normal: #ccc;
+    --text-muted: #707070;
+}
+
+.theme-dark.is-fullscreen {
+    --background-primary: #111111;
+}
+
+------------
+/* Hide vault name */
+.nav-folder.mod-root > .nav-folder-title {
+  display: none;
+}
+
+/* Hide tabs when only one tab is open (with transition) */
+.mod-root .workspace-tabs .workspace-tab-header-container {
+  max-height: 3em;
+  opacity: 1;
+  overflow: hidden;
+  transition:
+    opacity 0.3s ease,
+    max-height 0.3s ease;
+}
+
+.mod-root
+  .workspace-tabs:not(:has(.workspace-tab-header:nth-of-type(2)))
+  .workspace-tab-header-container {
+  max-height: 0;
+  opacity: 0;
+}
+
+/* Hide sidebar buttons */
+.sidebar-toggle-button.mod-right,
+.sidebar-toggle-button.mod-left {
+  display: none;
+}
+
+.mod-macos.is-hidden-frameless:not(.is-popout-window)
+  .workspace
+  .workspace-tabs.mod-top-right-space
+  .workspace-tab-header-container {
+  padding-right: 4px;
+}
+
+/* Hide ribbon */
+.mod-macos.is-hidden-frameless:not(.is-fullscreen):not(.is-popout-window)
+  .workspace-tabs.mod-top-left-space
+  .workspace-tab-header-container {
+  padding-left: calc(var(--frame-left-space) + var(--ribbon-width));
+}
+
+.workspace-ribbon.mod-left {
+  display: none;
+}
+.workspace-ribbon.mod-right {
+  visibility: hidden;
+  position: absolute;
+}
+.workspace-split.mod-right-split {
+  margin-right: 0;
+}
+.workspace-split.mod-left-split {
+  margin-left: 0;
+}
+
+/* Hide meta */
+.markdown-reading-view .metadata-container {
+  display: none;
+}
+
+/* Hide scrollbars */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide search suggestions */
+.suggestion-container.mod-search-suggestion {
+  display: none;
+}
+
+/* Hide search count flair */
+.tree-item-flair:not(.tag-pane-tag-count) {
+  display: none;
+}
+
+/* Hide instructions */
+.prompt-instructions {
+  display: none;
+}
+
+/* Hide file nav header */
+.workspace-leaf-content[data-type="file-explorer"] .nav-header {
+  display: none;
+}
+
+/* Hide left panel header icons */
+.mod-top-left-space .workspace-tab-header-container-inner {
+  display: none;
+}
+
+/* Hide nav buttons */
+.view-header-nav-buttons {
+  display: none;
+}

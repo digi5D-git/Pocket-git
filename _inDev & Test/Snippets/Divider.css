@@ -1,0 +1,67 @@
+/* Modern Horizontal Ruler Styling */
+:root {
+  --hr-height: 6px;
+  --hr-color-1: #ff6b6b;
+  --hr-color-2: #4ecdc4;
+  --hr-color-3: #45b7d1;
+}
+
+hr {
+  border: none;
+  height: var(--hr-height);
+  position: relative;
+  margin: 40px 0;
+  overflow: visible;
+}
+
+hr::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--hr-color-1),
+    var(--hr-color-2),
+    var(--hr-color-3)
+  );
+  animation: gradient 5s ease infinite;
+  background-size: 200% 200%;
+}
+
+hr::after {
+  content: '☆';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: var(--hr-color-2);
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Optional: Add a subtle glow effect */
+hr::before {
+  filter: drop-shadow(0 0 5px rgba(78, 205, 196, 0.5));
+}
+
+/* Optional: Add hover effect */
+hr:hover::before {
+  animation-play-state: paused;
+}
+
+hr:hover::after {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}

@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intake/Prime_Paramount+ - UmiZoomi show.md",
-                "mode": "preview",
+                "file": "Web & Tool Book/Files.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Prime_Paramount+ - UmiZoomi show"
+              "title": "Files"
             }
           },
           {
@@ -247,7 +247,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Intake/Prime_Paramount+ - UmiZoomi show.md",
+            "file": "Web & Tool Book/Files.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -353,11 +353,13 @@
   },
   "active": "d33c13dbc9221ebd",
   "lastOpenFiles": [
+    "Intake/Prime_Paramount+ - UmiZoomi show.md",
+    "Web & Tool Book/Files.md",
+    "Web & Tool Book",
     "NetClip/CSS Typed Arithmetic _ CSS-Tricks.md",
     "Links & Info for Follow-up.md",
     "Termux-Command-Handbook/The Ultimate Guide to Termux Commands.md",
     "Intake/Amazon.md",
-    "Intake/Prime_Paramount+ - UmiZoomi show.md",
     "IceDrive.md",
     "Untitled",
     "Intake/Cblock+Callout.md",
@@ -379,7 +381,6 @@
     "Intake/Android Index.md",
     "Intake/Links for Follow up.md",
     "Idex.md",
-    "Hub.md",
     "ExTyp_stylesettings.json",
     "Templates/Scripts/ButtonManager.js",
     "0. Data-Hub/1 Coding/5 Mobile",
@@ -388,7 +389,6 @@
     "0. Data-Hub/1 Coding/2 Data Interchange Formats",
     "0. Data-Hub/1 Coding/1 Languages",
     "0. Data-Hub/5 SotM",
-    "0. Data-Hub/4 Science & Computing",
     "Anatomy of Typeface.jpg",
     "typeface anatomy.jpg",
     "digi5d.png",
