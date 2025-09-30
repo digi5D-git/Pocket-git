@@ -6,7 +6,7 @@
   "startView": "navigation",
   "fileVisibility": "all",
   "excludedFolders": [
-    "/Templates/*"
+    "/Templates*"
   ],
   "excludedFiles": [],
   "showShortcuts": true,
@@ -229,7 +229,7 @@
     ]
   },
   "shortcuts": [],
-  "includeDescendantNotes": false,
+  "includeDescendantNotes": true,
   "customVaultName": "",
   "pinnedNotes": {},
   "fileIcons": {},
