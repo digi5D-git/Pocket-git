@@ -1,0 +1,170 @@
+/* Topic Navigation Buttons Styling */
+
+/* Container for button grid - 2 column layout */
+.topic-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 20px 0;
+    margin: 20px 0;
+    max-width: 800px;
+}
+
+/* Individual topic buttons */
+.topic-button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-decoration: none;
+    display: block;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topic-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    text-decoration: none;
+    color: white;
+}
+
+/* Updated topic button colors for custom categories */
+.topic-button.coding {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.topic-button.data-format {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.topic-button.design {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+}
+
+.topic-button.command-line {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+}
+
+.topic-button.computer-science {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+}
+
+.topic-button.science {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+}
+
+.topic-button.logic-reasoning {
+    background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%);
+}
+
+.topic-button.project-research {
+    background: linear-gradient(135deg, #fd79a8 0%, #fdcb6e 100%);
+}
+
+.topic-button.android {
+    background: linear-gradient(135deg, #6c5ce7 0%, #74b9ff 100%);
+}
+
+.topic-button.pc {
+    background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
+}
+
+/* Button icons */
+.topic-button::before {
+    content: attr(data-icon);
+    display: block;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+/* Mobile responsive - single column on small screens */
+@media (max-width: 768px) {
+    .topic-navigation {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding: 15px 0;
+        max-width: 100%;
+    }
+    
+    .topic-button {
+        padding: 16px 12px;
+        font-size: 14px;
+        min-height: 50px;
+    }
+    
+    .topic-button::before {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+}
+
+/* Tablet responsive - maintain 2 columns on medium screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .topic-navigation {
+        gap: 14px;
+        max-width: 600px;
+    }
+    
+    .topic-button {
+        padding: 18px;
+        font-size: 15px;
+    }
+}
+
+/* Summary cards styling */
+.note-summary-card {
+    background-color: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: all 0.2s ease;
+}
+
+.note-summary-card:hover {
+    border-color: var(--interactive-accent);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.note-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-accent);
+    margin-bottom: 8px;
+}
+
+.note-metadata {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+}
+
+.note-summary {
+    color: var(--text-normal);
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.note-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.note-tag {
+    background-color: var(--tag-background);
+    color: var(--tag-color);
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+}
