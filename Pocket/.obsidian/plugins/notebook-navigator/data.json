@@ -23,7 +23,11 @@
   "navItemHeightScaleText": true,
   "externalIconProviders": {
     "bootstrap-icons": true,
-    "phosphor": true
+    "phosphor": true,
+    "fontawesome-regular": true,
+    "simple-icons": true,
+    "rpg-awesome": true,
+    "material-icons": true
   },
   "showRootFolder": true,
   "inheritFolderColors": true,
@@ -60,7 +64,7 @@
   "fileNameRows": 1,
   "showFileDate": true,
   "showFileTags": true,
-  "showFileTagsInSlimMode": true,
+  "showFileTagsInSlimMode": false,
   "showParentFolderNames": true,
   "showFilePreview": true,
   "skipHeadingsInPreview": true,
