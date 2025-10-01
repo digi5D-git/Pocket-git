@@ -7,7 +7,7 @@ key: Email Note
 ---
 
 >[!tip] Kendall Gmail
-> kendall.v.woods@gmail.com
+>kendall.v.woods@gmail.com
 
 >[!info] Gabriel's iCloud
-> becks_0711@icloud.com
+>becks_0711@icloud.com
